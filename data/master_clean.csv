@@ -1,0 +1,583 @@
+geography,immigrant_status,total_pop,total_income,total_stir,owner_pop,owner_income,owner_stir,renter_pop,renter_income,renter_stir,renter_owner_gap,city,csd_name
+Canada 20000 (  4.3%),Total Immigrant Status,34973090.0,131000.0,19.2,25209770.0,148800.0,17.3,9763320.0,84900.0,24.0,6.699999999999999,Other,Canada 20000
+Canada 20000 (  4.3%),Non-immigrants,23648635.0,131400.0,17.7,17535505.0,149200.0,15.6,6113130.0,80800.0,23.8,8.200000000000001,Other,Canada 20000
+Canada 20000 (  4.3%),Immigrant,11324455.0,129800.0,22.1,7674270.0,148000.0,21.1,3650190.0,91700.0,24.4,3.299999999999997,Other,Canada 20000
+"  Montréal (CMA), Que. 20000 (  3.4%)",Total Immigrant Status,4133840.0,122900.0,18.3,2566025.0,150800.0,16.3,1567815.0,77300.0,21.5,5.199999999999999,Montreal,Montréal
+"  Montréal (CMA), Que. 20000 (  3.4%)",Non-immigrants,2644045.0,129200.0,17.2,1769440.0,155800.0,14.9,874610.0,75300.0,21.9,6.999999999999998,Montreal,Montréal
+"  Montréal (CMA), Que. 20000 (  3.4%)",Immigrant,1489795.0,111700.0,20.1,796590.0,139400.0,19.3,693205.0,79900.0,21.1,1.8000000000000007,Montreal,Montréal
+    Lavaltrie (2452007) V 00000 (  3.0%),Total Immigrant Status,14225.0,107900.0,16.5,11475.0,116700.0,15.2,2745.0,71100.0,22.0,6.800000000000001,Montreal,Lavaltrie
+    Lavaltrie (2452007) V 00000 (  3.0%),Non-immigrants,13555.0,108200.0,16.4,10870.0,117300.0,15.1,2680.0,71300.0,22.0,6.9,Montreal,Lavaltrie
+    Lavaltrie (2452007) V 00000 (  3.0%),Immigrant,665.0,103200.0,18.1,610.0,107200.0,17.6,60.0,62000.0,23.6,6.0,Montreal,Lavaltrie
+    Richelieu (2455057) V 00000 (  2.1%),Total Immigrant Status,5335.0,118000.0,17.3,3640.0,137400.0,15.1,1690.0,76400.0,22.2,7.1,Montreal,Richelieu
+    Richelieu (2455057) V 00000 (  2.1%),Non-immigrants,5075.0,116700.0,17.3,3470.0,135400.0,15.0,1610.0,76600.0,22.1,7.100000000000001,Montreal,Richelieu
+    Richelieu (2455057) V 00000 (  2.1%),Immigrant,255.0,143000.0,18.3,170.0,176000.0,15.5,85.0,72000.0,24.2,8.7,Montreal,Richelieu
+    Saint-Mathias-sur-Richelieu (2455065) MÉ 00000 (  3.1%),Total Immigrant Status,4450.0,118800.0,15.9,3740.0,127200.0,15.1,710.0,75000.0,19.9,4.799999999999999,Montreal,Saint-Mathias-sur-Richelieu
+    Saint-Mathias-sur-Richelieu (2455065) MÉ 00000 (  3.1%),Non-immigrants,4280.0,118800.0,15.9,3605.0,127000.0,15.2,680.0,75200.0,19.9,4.699999999999999,Montreal,Saint-Mathias-sur-Richelieu
+    Saint-Mathias-sur-Richelieu (2455065) MÉ 00000 (  3.1%),Immigrant,170.0,119000.0,15.6,135.0,130000.0,14.6,30.0,72000.0,19.5,4.9,Montreal,Saint-Mathias-sur-Richelieu
+    Saint-Jean-sur-Richelieu (2456083) V 00000 (  2.7%),Total Immigrant Status,94960.0,112300.0,16.5,65120.0,132000.0,14.7,29840.0,69300.0,20.5,5.800000000000001,Montreal,Saint-Jean-sur-Richelieu
+    Saint-Jean-sur-Richelieu (2456083) V 00000 (  2.7%),Non-immigrants,89515.0,112200.0,16.4,61420.0,132200.0,14.5,28095.0,68600.0,20.6,6.100000000000001,Montreal,Saint-Jean-sur-Richelieu
+    Saint-Jean-sur-Richelieu (2456083) V 00000 (  2.7%),Immigrant,5445.0,112600.0,18.4,3705.0,127600.0,18.1,1740.0,80800.0,19.0,0.8999999999999986,Montreal,Saint-Jean-sur-Richelieu
+    Chambly (2457005) V 00000 (  2.2%),Total Immigrant Status,30710.0,137400.0,15.8,25010.0,151000.0,15.0,5700.0,77700.0,19.5,4.5,Montreal,Chambly
+    Chambly (2457005) V 00000 (  2.2%),Non-immigrants,26815.0,135200.0,15.5,21635.0,149400.0,14.5,5185.0,75800.0,19.8,5.300000000000001,Montreal,Chambly
+    Chambly (2457005) V 00000 (  2.2%),Immigrant,3900.0,152200.0,17.8,3375.0,161000.0,18.0,525.0,96400.0,16.4,-1.6000000000000014,Montreal,Chambly
+    Carignan (2457010) V 00000 (  2.3%),Total Immigrant Status,11640.0,168200.0,15.9,10840.0,173200.0,15.6,800.0,99000.0,19.8,4.200000000000001,Montreal,Carignan
+    Carignan (2457010) V 00000 (  2.3%),Non-immigrants,10010.0,170000.0,15.4,9265.0,176600.0,15.1,740.0,89000.0,19.0,3.9000000000000004,Montreal,Carignan
+    Carignan (2457010) V 00000 (  2.3%),Immigrant,1630.0,156800.0,18.9,1575.0,154200.0,18.5,60.0,230000.0,29.6,11.100000000000001,Montreal,Carignan
+    Saint-Basile-le-Grand (2457020) V 00000 (  1.2%),Total Immigrant Status,16870.0,146000.0,15.1,15320.0,153000.0,14.4,1555.0,78600.0,21.8,7.4,Montreal,Saint-Basile-le-Grand
+    Saint-Basile-le-Grand (2457020) V 00000 (  1.2%),Non-immigrants,15135.0,147800.0,14.8,13780.0,154600.0,14.1,1350.0,78300.0,21.6,7.500000000000002,Montreal,Saint-Basile-le-Grand
+    Saint-Basile-le-Grand (2457020) V 00000 (  1.2%),Immigrant,1735.0,131800.0,17.7,1535.0,138400.0,17.1,200.0,81000.0,22.9,5.799999999999997,Montreal,Saint-Basile-le-Grand
+    McMasterville (2457025) MÉ 00000 (  1.2%),Total Immigrant Status,5585.0,111700.0,16.6,4015.0,124500.0,15.4,1570.0,79200.0,19.6,4.200000000000001,Montreal,McMasterville
+    McMasterville (2457025) MÉ 00000 (  1.2%),Non-immigrants,5335.0,111900.0,16.5,3790.0,125100.0,15.2,1545.0,79500.0,19.6,4.400000000000002,Montreal,McMasterville
+    McMasterville (2457025) MÉ 00000 (  1.2%),Immigrant,250.0,109000.0,17.9,225.0,114000.0,18.0,20.0,56000.0,17.0,-1.0,Montreal,McMasterville
+    Otterburn Park (2457030) V 00000 (  2.3%),Total Immigrant Status,8425.0,136400.0,15.5,7585.0,142000.0,14.8,840.0,84800.0,21.1,6.300000000000001,Montreal,Otterburn Park
+    Otterburn Park (2457030) V 00000 (  2.3%),Non-immigrants,7850.0,137600.0,15.2,7050.0,143600.0,14.5,800.0,85600.0,21.3,6.800000000000001,Montreal,Otterburn Park
+    Otterburn Park (2457030) V 00000 (  2.3%),Immigrant,575.0,118800.0,18.9,540.0,122400.0,19.0,35.0,64000.0,17.0,-2.0,Montreal,Otterburn Park
+    Mont-Saint-Hilaire (2457035) V 00000 (  1.8%),Total Immigrant Status,18190.0,167400.0,15.1,15675.0,180800.0,14.3,2510.0,83300.0,20.5,6.199999999999999,Montreal,Mont-Saint-Hilaire
+    Mont-Saint-Hilaire (2457035) V 00000 (  1.8%),Non-immigrants,16925.0,170200.0,14.9,14625.0,183800.0,14.0,2300.0,82900.0,20.5,6.5,Montreal,Mont-Saint-Hilaire
+    Mont-Saint-Hilaire (2457035) V 00000 (  1.8%),Immigrant,1265.0,130800.0,18.2,1055.0,139600.0,17.7,215.0,88000.0,20.6,2.900000000000002,Montreal,Mont-Saint-Hilaire
+    Beloeil (2457040) V 00000 (  1.6%),Total Immigrant Status,23635.0,125300.0,16.7,18710.0,137800.0,15.2,4925.0,77900.0,22.6,7.400000000000002,Montreal,Beloeil
+    Beloeil (2457040) V 00000 (  1.6%),Non-immigrants,21815.0,125300.0,16.6,17195.0,138200.0,14.9,4620.0,77200.0,22.7,7.799999999999999,Montreal,Beloeil
+    Beloeil (2457040) V 00000 (  1.6%),Immigrant,1820.0,125600.0,18.6,1510.0,133400.0,17.9,310.0,88000.0,22.2,4.300000000000001,Montreal,Beloeil
+    Saint-Mathieu-de-Beloeil (2457045) MÉ 00000 (  0.7%),Total Immigrant Status,2905.0,154400.0,15.9,2545.0,163400.0,14.6,360.0,90400.0,25.2,10.6,Montreal,Saint-Mathieu-de-Beloeil
+    Saint-Mathieu-de-Beloeil (2457045) MÉ 00000 (  0.7%),Non-immigrants,2770.0,153600.0,15.9,2420.0,162600.0,14.5,345.0,91600.0,25.0,10.5,Montreal,Saint-Mathieu-de-Beloeil
+    Saint-Mathieu-de-Beloeil (2457045) MÉ 00000 (  0.7%),Immigrant,140.0,172000.0,17.0,130.0,180000.0,16.0,0.0,,,,Montreal,Saint-Mathieu-de-Beloeil
+    Brossard (2458007) V 00000 (  2.6%),Total Immigrant Status,87410.0,126200.0,18.3,64250.0,140800.0,16.6,23155.0,85900.0,23.0,6.399999999999999,Montreal,Brossard
+    Brossard (2458007) V 00000 (  2.6%),Non-immigrants,36485.0,130800.0,16.6,25795.0,150200.0,13.7,10685.0,83800.0,23.5,9.8,Montreal,Brossard
+    Brossard (2458007) V 00000 (  2.6%),Immigrant,50925.0,123000.0,19.5,38455.0,134400.0,18.5,12470.0,87700.0,22.6,4.100000000000001,Montreal,Brossard
+    Saint-Lambert (2458012) V 00000 (  2.3%),Total Immigrant Status,21450.0,206800.0,17.7,15060.0,260400.0,14.5,6390.0,80900.0,25.3,10.8,Montreal,Saint-Lambert
+    Saint-Lambert (2458012) V 00000 (  2.3%),Non-immigrants,16795.0,224600.0,16.8,12575.0,271600.0,14.1,4220.0,84400.0,24.9,10.799999999999999,Montreal,Saint-Lambert
+    Saint-Lambert (2458012) V 00000 (  2.3%),Immigrant,4650.0,142600.0,21.0,2480.0,202400.0,16.5,2165.0,74200.0,26.1,9.600000000000001,Montreal,Saint-Lambert
+    Boucherville (2458033) V 00000 (  1.1%),Total Immigrant Status,40695.0,174000.0,13.9,36065.0,185600.0,12.9,4635.0,82400.0,22.0,9.1,Montreal,Boucherville
+    Boucherville (2458033) V 00000 (  1.1%),Non-immigrants,35575.0,176200.0,13.5,31555.0,188200.0,12.3,4020.0,81100.0,22.6,10.3,Montreal,Boucherville
+    Boucherville (2458033) V 00000 (  1.1%),Immigrant,5120.0,158600.0,17.3,4505.0,167800.0,17.2,610.0,91200.0,17.8,0.6000000000000014,Montreal,Boucherville
+    Saint-Bruno-de-Montarville (2458037) V 00000 (  1.1%),Total Immigrant Status,25750.0,179600.0,13.8,23380.0,190200.0,13.0,2370.0,75000.0,22.0,9.0,Montreal,Saint-Bruno-de-Montarville
+    Saint-Bruno-de-Montarville (2458037) V 00000 (  1.1%),Non-immigrants,22150.0,183800.0,13.5,20135.0,194800.0,12.5,2015.0,73400.0,22.7,10.2,Montreal,Saint-Bruno-de-Montarville
+    Saint-Bruno-de-Montarville (2458037) V 00000 (  1.1%),Immigrant,3595.0,154400.0,15.9,3245.0,162200.0,15.6,355.0,84000.0,18.6,3.0000000000000018,Montreal,Saint-Bruno-de-Montarville
+    Longueuil (2458227) V 00000 (  3.2%),Total Immigrant Status,247805.0,107900.0,17.7,147040.0,132000.0,15.6,100760.0,72700.0,20.8,5.200000000000001,Montreal,Longueuil
+    Longueuil (2458227) V 00000 (  3.2%),Non-immigrants,171735.0,108600.0,17.2,103070.0,134400.0,14.5,68660.0,69900.0,21.2,6.699999999999999,Montreal,Longueuil
+    Longueuil (2458227) V 00000 (  3.2%),Immigrant,76070.0,106400.0,18.9,43970.0,126600.0,18.1,32100.0,78700.0,19.9,1.7999999999999972,Montreal,Longueuil
+    Sainte-Julie (2459010) V 00000 (  0.9%),Total Immigrant Status,29195.0,151000.0,14.0,25310.0,162000.0,12.9,3885.0,80100.0,21.2,8.299999999999999,Montreal,Sainte-Julie
+    Sainte-Julie (2459010) V 00000 (  0.9%),Non-immigrants,26505.0,152600.0,13.5,22910.0,163800.0,12.4,3600.0,81200.0,20.4,7.999999999999998,Montreal,Sainte-Julie
+    Sainte-Julie (2459010) V 00000 (  0.9%),Immigrant,2685.0,135400.0,19.0,2395.0,143800.0,17.6,285.0,65500.0,30.7,13.099999999999998,Montreal,Sainte-Julie
+    Saint-Amable (2459015) V 00000 (  2.3%),Total Immigrant Status,13235.0,114300.0,17.4,11065.0,121600.0,17.0,2165.0,76900.0,19.1,2.1000000000000014,Montreal,Saint-Amable
+    Saint-Amable (2459015) V 00000 (  2.3%),Non-immigrants,12080.0,114900.0,17.1,10020.0,122800.0,16.7,2060.0,76500.0,19.2,2.5,Montreal,Saint-Amable
+    Saint-Amable (2459015) V 00000 (  2.3%),Immigrant,1155.0,108200.0,19.9,1040.0,110600.0,20.1,110.0,84000.0,18.2,-1.9000000000000021,Montreal,Saint-Amable
+    Varennes (2459020) V 00000 (  1.7%),Total Immigrant Status,20675.0,140800.0,13.9,17500.0,152200.0,13.0,3170.0,78000.0,19.3,6.300000000000001,Montreal,Varennes
+    Varennes (2459020) V 00000 (  1.7%),Non-immigrants,19630.0,142200.0,13.7,16635.0,153800.0,12.7,3000.0,77800.0,19.4,6.699999999999999,Montreal,Varennes
+    Varennes (2459020) V 00000 (  1.7%),Immigrant,1045.0,116400.0,18.3,870.0,123200.0,18.5,175.0,83000.0,17.4,-1.1000000000000014,Montreal,Varennes
+    Verchères (2459025) MÉ 00000 (  3.2%),Total Immigrant Status,5655.0,126200.0,14.8,4730.0,136600.0,14.3,925.0,72800.0,17.2,2.8999999999999986,Montreal,Verchères
+    Verchères (2459025) MÉ 00000 (  3.2%),Non-immigrants,5475.0,125800.0,14.8,4565.0,136600.0,14.2,910.0,71600.0,17.4,3.1999999999999993,Montreal,Verchères
+    Verchères (2459025) MÉ 00000 (  3.2%),Immigrant,180.0,138000.0,16.1,165.0,138000.0,16.7,0.0,,,,Montreal,Verchères
+    Charlemagne (2460005) V 00000 (  2.5%),Total Immigrant Status,6245.0,94000.0,17.0,3700.0,111900.0,14.7,2550.0,68200.0,20.2,5.5,Montreal,Charlemagne
+    Charlemagne (2460005) V 00000 (  2.5%),Non-immigrants,5675.0,94300.0,16.5,3290.0,112700.0,14.2,2385.0,69000.0,19.6,5.400000000000002,Montreal,Charlemagne
+    Charlemagne (2460005) V 00000 (  2.5%),Immigrant,575.0,91600.0,21.8,405.0,105600.0,18.6,165.0,56400.0,29.9,11.299999999999997,Montreal,Charlemagne
+    Repentigny (2460013) V 00000 (  1.5%),Total Immigrant Status,84445.0,125600.0,16.4,70540.0,135400.0,15.4,13900.0,75400.0,21.9,6.499999999999998,Montreal,Repentigny
+    Repentigny (2460013) V 00000 (  1.5%),Non-immigrants,67410.0,124600.0,15.7,55175.0,136000.0,14.3,12235.0,73100.0,22.0,7.699999999999999,Montreal,Repentigny
+    Repentigny (2460013) V 00000 (  1.5%),Immigrant,17035.0,129600.0,19.4,15370.0,133600.0,19.2,1665.0,92000.0,21.0,1.8000000000000007,Montreal,Repentigny
+    Saint-Sulpice (2460020) PE 00000 (  2.0%),Total Immigrant Status,3325.0,110600.0,15.9,2705.0,118900.0,15.2,620.0,74000.0,18.9,3.6999999999999993,Montreal,Saint-Sulpice
+    Saint-Sulpice (2460020) PE 00000 (  2.0%),Non-immigrants,3160.0,109600.0,15.9,2615.0,117600.0,15.2,545.0,71200.0,19.4,4.199999999999999,Montreal,Saint-Sulpice
+    Saint-Sulpice (2460020) PE 00000 (  2.0%),Immigrant,160.0,130000.0,16.1,95.0,158000.0,16.6,75.0,96000.0,15.6,-1.0000000000000018,Montreal,Saint-Sulpice
+    L'Assomption (2460028) V 00000 (  1.9%),Total Immigrant Status,22830.0,119800.0,16.7,18300.0,132000.0,15.8,4530.0,70400.0,20.3,4.5,Montreal,L'Assomption
+    L'Assomption (2460028) V 00000 (  1.9%),Non-immigrants,20945.0,119100.0,16.6,16575.0,132000.0,15.6,4370.0,70000.0,20.3,4.700000000000001,Montreal,L'Assomption
+    L'Assomption (2460028) V 00000 (  1.9%),Immigrant,1880.0,127300.0,18.5,1725.0,131400.0,18.2,160.0,82000.0,22.0,3.8000000000000007,Montreal,L'Assomption
+    L'Épiphanie (2460037) V 00000 (  3.2%),Total Immigrant Status,8670.0,111000.0,15.9,6285.0,126400.0,14.8,2380.0,70100.0,18.9,4.099999999999998,Montreal,L'Épiphanie
+    L'Épiphanie (2460037) V 00000 (  3.2%),Non-immigrants,8310.0,110200.0,15.9,5985.0,125900.0,14.7,2330.0,69700.0,19.0,4.300000000000001,Montreal,L'Épiphanie
+    L'Épiphanie (2460037) V 00000 (  3.2%),Immigrant,355.0,129500.0,15.6,305.0,137000.0,16.2,50.0,88000.0,12.0,-4.199999999999999,Montreal,L'Épiphanie
+    Saint-Roch-de-l'Achigan (2463035) MÉ 00000 (  1.8%),Total Immigrant Status,5305.0,111300.0,15.3,3825.0,125000.0,14.3,1480.0,75800.0,18.2,3.8999999999999986,Montreal,Saint-Roch-de-l'Achigan
+    Saint-Roch-de-l'Achigan (2463035) MÉ 00000 (  1.8%),Non-immigrants,5235.0,110200.0,15.4,3770.0,123700.0,14.3,1465.0,75300.0,18.2,3.8999999999999986,Montreal,Saint-Roch-de-l'Achigan
+    Saint-Roch-de-l'Achigan (2463035) MÉ 00000 (  1.8%),Immigrant,70.0,190000.0,11.4,50.0,210000.0,10.4,0.0,,,,Montreal,Saint-Roch-de-l'Achigan
+    Saint-Lin--Laurentides (2463048) V 00000 (  2.6%),Total Immigrant Status,23645.0,100400.0,17.0,17840.0,108900.0,16.5,5810.0,74400.0,18.7,2.1999999999999993,Montreal,Saint-Lin--Laurentides
+    Saint-Lin--Laurentides (2463048) V 00000 (  2.6%),Non-immigrants,22370.0,100900.0,16.7,16745.0,109600.0,16.1,5625.0,75100.0,18.5,2.3999999999999986,Montreal,Saint-Lin--Laurentides
+    Saint-Lin--Laurentides (2463048) V 00000 (  2.6%),Immigrant,1280.0,92200.0,21.9,1095.0,98400.0,21.7,185.0,55200.0,23.5,1.8000000000000007,Montreal,Saint-Lin--Laurentides
+    Terrebonne (2464008) V 00000 (  1.8%),Total Immigrant Status,117455.0,128600.0,16.7,97055.0,139000.0,15.7,20395.0,79800.0,21.0,5.300000000000001,Montreal,Terrebonne
+    Terrebonne (2464008) V 00000 (  1.8%),Non-immigrants,94475.0,128400.0,16.1,76585.0,140400.0,14.9,17895.0,77300.0,21.4,6.499999999999998,Montreal,Terrebonne
+    Terrebonne (2464008) V 00000 (  1.8%),Immigrant,22975.0,129600.0,18.9,20475.0,133600.0,19.0,2500.0,97500.0,18.0,-1.0,Montreal,Terrebonne
+    Mascouche (2464015) V 00000 (  2.0%),Total Immigrant Status,49770.0,125300.0,16.6,40390.0,135600.0,15.8,9375.0,81300.0,20.0,4.199999999999999,Montreal,Mascouche
+    Mascouche (2464015) V 00000 (  2.0%),Non-immigrants,44085.0,126100.0,16.2,35460.0,137200.0,15.3,8625.0,80600.0,20.0,4.699999999999999,Montreal,Mascouche
+    Mascouche (2464015) V 00000 (  2.0%),Immigrant,5675.0,119200.0,19.8,4930.0,123800.0,19.6,750.0,89400.0,21.1,1.5,Montreal,Mascouche
+    Laval (2465005) V 00000 (  3.1%),Total Immigrant Status,425775.0,123500.0,17.6,313255.0,140400.0,16.2,112525.0,76800.0,21.5,5.300000000000001,Montreal,Laval
+    Laval (2465005) V 00000 (  3.1%),Non-immigrants,231090.0,129800.0,16.4,170950.0,149400.0,14.2,60140.0,73900.0,22.5,8.3,Montreal,Laval
+    Laval (2465005) V 00000 (  3.1%),Immigrant,194685.0,116200.0,19.0,142305.0,129400.0,18.5,52385.0,80200.0,20.4,1.8999999999999986,Montreal,Laval
+    Montréal-Est (2466007) V 00000 (  2.8%),Total Immigrant Status,4205.0,93400.0,18.5,1685.0,118600.0,17.3,2520.0,76700.0,19.3,2.0,Montreal,Montréal-Est
+    Montréal-Est (2466007) V 00000 (  2.8%),Non-immigrants,3470.0,94600.0,18.0,1425.0,120500.0,16.4,2050.0,76700.0,19.1,2.700000000000003,Montreal,Montréal-Est
+    Montréal-Est (2466007) V 00000 (  2.8%),Immigrant,735.0,87800.0,20.7,265.0,108000.0,21.9,470.0,76400.0,20.0,-1.8999999999999986,Montreal,Montréal-Est
+    Montréal (2466023) V 00000 (  4.6%),Total Immigrant Status,1676690.0,109500.0,20.1,704975.0,154000.0,18.2,971710.0,77200.0,21.4,3.1999999999999993,Montreal,Montréal
+    Montréal (2466023) V 00000 (  4.6%),Non-immigrants,821350.0,117700.0,19.4,383990.0,165200.0,16.6,437355.0,76100.0,21.9,5.299999999999997,Montreal,Montréal
+    Montréal (2466023) V 00000 (  4.6%),Immigrant,855340.0,101600.0,20.7,320985.0,140600.0,20.2,534355.0,78000.0,21.0,0.8000000000000007,Montreal,Montréal
+    Westmount (2466032) V 00000 (  5.7%),Total Immigrant Status,17925.0,384000.0,20.4,11455.0,528000.0,15.7,6470.0,129000.0,28.8,13.100000000000001,Montreal,Westmount
+    Westmount (2466032) V 00000 (  5.7%),Non-immigrants,11215.0,436000.0,18.9,7745.0,575500.0,14.5,3470.0,123400.0,28.6,14.100000000000001,Montreal,Westmount
+    Westmount (2466032) V 00000 (  5.7%),Immigrant,6715.0,297200.0,22.9,3710.0,428000.0,18.0,3005.0,135400.0,29.0,11.0,Montreal,Westmount
+    Montréal-Ouest (2466047) V 00000 (  4.0%),Total Immigrant Status,4980.0,225000.0,17.6,3940.0,259600.0,16.5,1035.0,92600.0,21.7,5.199999999999999,Montreal,Montréal-Ouest
+    Montréal-Ouest (2466047) V 00000 (  4.0%),Non-immigrants,3165.0,255400.0,16.6,2605.0,291200.0,15.5,565.0,89200.0,21.5,6.0,Montreal,Montréal-Ouest
+    Montréal-Ouest (2466047) V 00000 (  4.0%),Immigrant,1810.0,171800.0,19.3,1340.0,198000.0,18.4,470.0,96800.0,21.8,3.400000000000002,Montreal,Montréal-Ouest
+    Côte-Saint-Luc (2466058) V 00000 (  4.4%),Total Immigrant Status,32835.0,139000.0,22.6,17510.0,192800.0,19.7,15325.0,77600.0,25.8,6.100000000000001,Montreal,Côte-Saint-Luc
+    Côte-Saint-Luc (2466058) V 00000 (  4.4%),Non-immigrants,13395.0,172200.0,21.2,8520.0,223800.0,18.0,4880.0,82000.0,26.6,8.600000000000001,Montreal,Côte-Saint-Luc
+    Côte-Saint-Luc (2466058) V 00000 (  4.4%),Immigrant,19440.0,116300.0,23.5,8990.0,163600.0,21.4,10450.0,75600.0,25.4,4.0,Montreal,Côte-Saint-Luc
+    Hampstead (2466062) V 00000 (  1.9%),Total Immigrant Status,6725.0,345200.0,18.5,5100.0,393200.0,16.6,1630.0,194800.0,24.3,7.699999999999999,Montreal,Hampstead
+    Hampstead (2466062) V 00000 (  1.9%),Non-immigrants,3845.0,376800.0,17.7,3180.0,432800.0,15.6,665.0,108800.0,27.7,12.1,Montreal,Hampstead
+    Hampstead (2466062) V 00000 (  1.9%),Immigrant,2880.0,302800.0,19.6,1920.0,327600.0,18.4,965.0,254400.0,22.0,3.6000000000000014,Montreal,Hampstead
+    Mont-Royal (2466072) V 00000 (  3.6%),Total Immigrant Status,19960.0,266800.0,17.8,14350.0,328800.0,15.7,5615.0,108300.0,23.1,7.400000000000002,Montreal,Mont-Royal
+    Mont-Royal (2466072) V 00000 (  3.6%),Non-immigrants,9990.0,352400.0,14.8,8435.0,395600.0,13.0,1555.0,117700.0,24.5,11.5,Montreal,Mont-Royal
+    Mont-Royal (2466072) V 00000 (  3.6%),Immigrant,9970.0,181400.0,20.8,5910.0,234000.0,19.5,4060.0,104700.0,22.6,3.1000000000000014,Montreal,Mont-Royal
+    Dorval (2466087) V 00000 (  2.3%),Total Immigrant Status,18760.0,144800.0,17.7,12715.0,178800.0,15.2,6040.0,73500.0,22.8,7.600000000000001,Montreal,Dorval
+    Dorval (2466087) V 00000 (  2.3%),Non-immigrants,12150.0,159600.0,16.8,8690.0,194000.0,14.3,3465.0,73500.0,23.1,8.8,Montreal,Dorval
+    Dorval (2466087) V 00000 (  2.3%),Immigrant,6610.0,117700.0,19.2,4025.0,146000.0,17.2,2580.0,73500.0,22.3,5.100000000000001,Montreal,Dorval
+    L'Île-Dorval (2466092) V 09999 ( 66.7%),Total Immigrant Status,,,,,,,,,,,Montreal,L'Île-Dorval
+    L'Île-Dorval (2466092) V 09999 ( 66.7%),Non-immigrants,,,,,,,,,,,Montreal,L'Île-Dorval
+    L'Île-Dorval (2466092) V 09999 ( 66.7%),Immigrant,,,,,,,,,,,Montreal,L'Île-Dorval
+    Pointe-Claire (2466097) V 00000 (  2.6%),Total Immigrant Status,31010.0,147600.0,17.6,23820.0,158800.0,14.9,7190.0,110500.0,26.6,11.700000000000001,Montreal,Pointe-Claire
+    Pointe-Claire (2466097) V 00000 (  2.6%),Non-immigrants,19770.0,149800.0,16.7,15470.0,169400.0,13.6,4300.0,79300.0,27.9,14.299999999999999,Montreal,Pointe-Claire
+    Pointe-Claire (2466097) V 00000 (  2.6%),Immigrant,11240.0,143600.0,19.0,8355.0,139000.0,17.1,2885.0,157000.0,24.6,7.5,Montreal,Pointe-Claire
+    Kirkland (2466102) V 00000 (  1.0%),Total Immigrant Status,18695.0,183000.0,15.6,17545.0,187200.0,15.1,1150.0,118400.0,24.4,9.299999999999999,Montreal,Kirkland
+    Kirkland (2466102) V 00000 (  1.0%),Non-immigrants,10320.0,199200.0,13.3,9685.0,204400.0,12.7,630.0,121200.0,22.8,10.100000000000001,Montreal,Kirkland
+    Kirkland (2466102) V 00000 (  1.0%),Immigrant,8375.0,162800.0,18.5,7860.0,166000.0,18.0,520.0,114800.0,26.4,8.399999999999999,Montreal,Kirkland
+    Beaconsfield (2466107) V 00000 (  0.8%),Total Immigrant Status,18620.0,220600.0,15.9,17130.0,229400.0,15.2,1490.0,120000.0,24.7,9.5,Montreal,Beaconsfield
+    Beaconsfield (2466107) V 00000 (  0.8%),Non-immigrants,12280.0,238800.0,13.9,11350.0,250200.0,13.1,930.0,99600.0,23.1,10.000000000000002,Montreal,Beaconsfield
+    Beaconsfield (2466107) V 00000 (  0.8%),Immigrant,6340.0,185200.0,19.9,5780.0,188200.0,19.2,555.0,153500.0,27.3,8.100000000000001,Montreal,Beaconsfield
+    Baie-D'Urfé (2466112) V 00000 (  1.2%),Total Immigrant Status,3615.0,223400.0,14.8,3460.0,225800.0,14.5,150.0,168000.0,22.0,7.5,Montreal,Baie-D'Urfé
+    Baie-D'Urfé (2466112) V 00000 (  1.2%),Non-immigrants,2265.0,248200.0,13.9,2190.0,252000.0,13.5,75.0,132000.0,23.2,9.7,Montreal,Baie-D'Urfé
+    Baie-D'Urfé (2466112) V 00000 (  1.2%),Immigrant,1350.0,181600.0,16.4,1270.0,180400.0,16.1,80.0,200000.0,20.8,4.699999999999999,Montreal,Baie-D'Urfé
+    Sainte-Anne-de-Bellevue (2466117) V 00000 (  7.0%),Total Immigrant Status,4555.0,147600.0,18.3,2955.0,189000.0,14.9,1600.0,70900.0,24.5,9.6,Montreal,Sainte-Anne-de-Bellevue
+    Sainte-Anne-de-Bellevue (2466117) V 00000 (  7.0%),Non-immigrants,3135.0,160800.0,17.1,2090.0,202800.0,13.9,1050.0,77000.0,23.5,9.6,Montreal,Sainte-Anne-de-Bellevue
+    Sainte-Anne-de-Bellevue (2466117) V 00000 (  7.0%),Immigrant,1415.0,118300.0,20.9,865.0,156000.0,17.3,550.0,59400.0,26.5,9.2,Montreal,Sainte-Anne-de-Bellevue
+    Senneville (2466127) VL 00000 (  6.0%),Total Immigrant Status,935.0,236000.0,14.2,770.0,248000.0,14.2,160.0,178000.0,14.2,0.0,Montreal,Senneville
+    Senneville (2466127) VL 00000 (  6.0%),Non-immigrants,675.0,204800.0,14.2,585.0,204000.0,14.6,90.0,212000.0,11.6,-3.0,Montreal,Senneville
+    Senneville (2466127) VL 00000 (  6.0%),Immigrant,260.0,316000.0,14.3,195.0,380000.0,13.0,70.0,132000.0,18.0,5.0,Montreal,Senneville
+    Dollard-Des Ormeaux (2466142) V 00000 (  1.7%),Total Immigrant Status,47270.0,144800.0,17.4,37500.0,160000.0,16.0,9770.0,86300.0,23.0,7.0,Montreal,Dollard-Des Ormeaux
+    Dollard-Des Ormeaux (2466142) V 00000 (  1.7%),Non-immigrants,19850.0,167600.0,15.9,16485.0,183600.0,14.5,3360.0,88700.0,22.7,8.2,Montreal,Dollard-Des Ormeaux
+    Dollard-Des Ormeaux (2466142) V 00000 (  1.7%),Immigrant,27425.0,128200.0,18.5,21010.0,141400.0,17.1,6410.0,85100.0,23.2,6.099999999999998,Montreal,Dollard-Des Ormeaux
+    Saint-Mathieu (2467005) MÉ 00000 (  1.7%),Total Immigrant Status,2285.0,127900.0,14.5,2065.0,132200.0,14.5,225.0,88000.0,14.4,-0.09999999999999964,Montreal,Saint-Mathieu
+    Saint-Mathieu (2467005) MÉ 00000 (  1.7%),Non-immigrants,2200.0,128400.0,14.6,1980.0,132800.0,14.6,215.0,89000.0,14.5,-0.09999999999999964,Montreal,Saint-Mathieu
+    Saint-Mathieu (2467005) MÉ 00000 (  1.7%),Immigrant,90.0,114000.0,13.2,80.0,120000.0,13.5,0.0,,,,Montreal,Saint-Mathieu
+    Saint-Philippe (2467010) V 00000 (  2.2%),Total Immigrant Status,7330.0,131800.0,16.2,6415.0,138800.0,15.5,920.0,83200.0,20.9,5.399999999999999,Montreal,Saint-Philippe
+    Saint-Philippe (2467010) V 00000 (  2.2%),Non-immigrants,6470.0,132000.0,15.8,5630.0,139000.0,15.0,835.0,84800.0,20.9,5.899999999999999,Montreal,Saint-Philippe
+    Saint-Philippe (2467010) V 00000 (  2.2%),Immigrant,865.0,130000.0,19.0,780.0,136800.0,18.7,80.0,67000.0,21.0,2.3000000000000007,Montreal,Saint-Philippe
+    La Prairie (2467015) V 00000 (  2.1%),Total Immigrant Status,25950.0,139400.0,16.7,20650.0,156200.0,15.2,5300.0,74100.0,22.2,7.0,Montreal,La Prairie
+    La Prairie (2467015) V 00000 (  2.1%),Non-immigrants,20040.0,142800.0,15.6,15545.0,163600.0,13.6,4495.0,70400.0,22.6,9.000000000000002,Montreal,La Prairie
+    La Prairie (2467015) V 00000 (  2.1%),Immigrant,5910.0,128600.0,20.2,5100.0,133800.0,20.3,810.0,95000.0,19.8,-0.5,Montreal,La Prairie
+    Candiac (2467020) V 00000 (  1.2%),Total Immigrant Status,22205.0,198800.0,16.2,19180.0,216800.0,14.9,3030.0,84900.0,24.6,9.700000000000001,Montreal,Candiac
+    Candiac (2467020) V 00000 (  1.2%),Non-immigrants,17040.0,215000.0,14.7,14595.0,236800.0,13.2,2440.0,85100.0,23.9,10.7,Montreal,Candiac
+    Candiac (2467020) V 00000 (  1.2%),Immigrant,5170.0,145600.0,21.1,4585.0,153400.0,20.3,580.0,84000.0,27.7,7.399999999999999,Montreal,Candiac
+    Delson (2467025) V 00000 (  2.3%),Total Immigrant Status,8250.0,115500.0,16.0,6330.0,126800.0,14.4,1920.0,78100.0,21.2,6.799999999999999,Montreal,Delson
+    Delson (2467025) V 00000 (  2.3%),Non-immigrants,7035.0,115400.0,15.5,5235.0,128200.0,13.7,1800.0,78400.0,21.0,7.300000000000001,Montreal,Delson
+    Delson (2467025) V 00000 (  2.3%),Immigrant,1210.0,115800.0,18.5,1095.0,120400.0,17.9,120.0,73000.0,24.0,6.100000000000001,Montreal,Delson
+    Sainte-Catherine (2467030) V 00000 (  1.7%),Total Immigrant Status,16510.0,118600.0,16.7,13300.0,129200.0,15.2,3205.0,74400.0,22.8,7.600000000000001,Montreal,Sainte-Catherine
+    Sainte-Catherine (2467030) V 00000 (  1.7%),Non-immigrants,14115.0,117600.0,16.5,11095.0,129400.0,14.7,3025.0,74100.0,23.1,8.400000000000002,Montreal,Sainte-Catherine
+    Sainte-Catherine (2467030) V 00000 (  1.7%),Immigrant,2390.0,124400.0,17.8,2210.0,128200.0,17.8,180.0,79500.0,18.1,0.3000000000000007,Montreal,Sainte-Catherine
+    Saint-Constant (2467035) V 00000 (  1.4%),Total Immigrant Status,29595.0,128400.0,16.1,24760.0,138000.0,15.1,4830.0,79100.0,21.1,6.000000000000002,Montreal,Saint-Constant
+    Saint-Constant (2467035) V 00000 (  1.4%),Non-immigrants,23535.0,129200.0,15.2,19195.0,140600.0,13.8,4345.0,78000.0,21.1,7.300000000000001,Montreal,Saint-Constant
+    Saint-Constant (2467035) V 00000 (  1.4%),Immigrant,6060.0,125800.0,19.5,5570.0,129000.0,19.4,490.0,89200.0,20.8,1.4000000000000021,Montreal,Saint-Constant
+    Saint-Isidore (2467040) PE 00000 (  2.6%),Total Immigrant Status,2580.0,120900.0,14.6,2055.0,129600.0,13.9,525.0,86400.0,17.4,3.4999999999999982,Montreal,Saint-Isidore
+    Saint-Isidore (2467040) PE 00000 (  2.6%),Non-immigrants,2415.0,119200.0,14.7,1920.0,129400.0,13.8,490.0,79600.0,18.6,4.800000000000001,Montreal,Saint-Isidore
+    Saint-Isidore (2467040) PE 00000 (  2.6%),Immigrant,170.0,144000.0,13.3,135.0,134000.0,16.6,0.0,,,,Montreal,Saint-Isidore
+    Mercier (2467045) V 00000 (  1.3%),Total Immigrant Status,14475.0,130800.0,16.1,12405.0,139400.0,15.3,2070.0,79300.0,20.6,5.300000000000001,Montreal,Mercier
+    Mercier (2467045) V 00000 (  1.3%),Non-immigrants,12025.0,132800.0,15.3,10220.0,142600.0,14.3,1810.0,77700.0,20.9,6.599999999999998,Montreal,Mercier
+    Mercier (2467045) V 00000 (  1.3%),Immigrant,2455.0,121100.0,19.9,2185.0,124700.0,20.1,260.0,91000.0,17.9,-2.200000000000003,Montreal,Mercier
+    Châteauguay (2467050) V 00000 (  2.4%),Total Immigrant Status,49640.0,110600.0,18.3,39245.0,121100.0,17.1,10400.0,71200.0,22.9,5.799999999999997,Montreal,Châteauguay
+    Châteauguay (2467050) V 00000 (  2.4%),Non-immigrants,34475.0,109900.0,17.7,25825.0,122900.0,16.0,8645.0,70900.0,22.9,6.899999999999999,Montreal,Châteauguay
+    Châteauguay (2467050) V 00000 (  2.4%),Immigrant,15165.0,112500.0,19.8,13420.0,117600.0,19.4,1750.0,72700.0,22.7,3.3000000000000007,Montreal,Châteauguay
+    Léry (2467055) V 00000 (  2.0%),Total Immigrant Status,2375.0,148400.0,17.1,2055.0,157800.0,15.7,320.0,87200.0,25.7,10.0,Montreal,Léry
+    Léry (2467055) V 00000 (  2.0%),Non-immigrants,2160.0,147200.0,16.6,1875.0,160000.0,15.1,290.0,62800.0,26.4,11.299999999999999,Montreal,Léry
+    Léry (2467055) V 00000 (  2.0%),Immigrant,215.0,160000.0,21.5,180.0,135000.0,21.8,35.0,300000.0,20.0,-1.8000000000000007,Montreal,Léry
+    Kahnawake (2467802) IRI 19999 (  0.0%),Total Immigrant Status,,,,,,,,,,,Montreal,Kahnawake
+    Kahnawake (2467802) IRI 19999 (  0.0%),Non-immigrants,,,,,,,,,,,Montreal,Kahnawake
+    Kahnawake (2467802) IRI 19999 (  0.0%),Immigrant,,,,,,,,,,,Montreal,Kahnawake
+    Beauharnois (2470022) V 00000 (  1.7%),Total Immigrant Status,13370.0,98000.0,17.2,9290.0,112600.0,16.0,4080.0,64700.0,19.9,3.8999999999999986,Montreal,Beauharnois
+    Beauharnois (2470022) V 00000 (  1.7%),Non-immigrants,12700.0,97200.0,17.0,8745.0,111900.0,15.7,3955.0,64600.0,19.8,4.100000000000001,Montreal,Beauharnois
+    Beauharnois (2470022) V 00000 (  1.7%),Immigrant,665.0,114200.0,20.6,545.0,124400.0,20.0,120.0,69000.0,23.4,3.3999999999999986,Montreal,Beauharnois
+    Saint-Zotique (2471025) MÉ 00000 (  3.6%),Total Immigrant Status,9475.0,116700.0,16.8,7575.0,126200.0,14.9,1900.0,78700.0,24.2,9.299999999999999,Montreal,Saint-Zotique
+    Saint-Zotique (2471025) MÉ 00000 (  3.6%),Non-immigrants,8920.0,118100.0,16.6,7140.0,127800.0,14.7,1790.0,79700.0,24.0,9.3,Montreal,Saint-Zotique
+    Saint-Zotique (2471025) MÉ 00000 (  3.6%),Immigrant,555.0,92400.0,20.4,440.0,100000.0,18.4,115.0,63000.0,28.4,10.0,Montreal,Saint-Zotique
+    Les Coteaux (2471033) MÉ 00000 (  3.8%),Total Immigrant Status,5565.0,108300.0,15.8,4035.0,120900.0,14.8,1530.0,75500.0,18.2,3.3999999999999986,Montreal,Les Coteaux
+    Les Coteaux (2471033) MÉ 00000 (  3.8%),Non-immigrants,5345.0,108300.0,15.7,3855.0,120800.0,14.8,1485.0,75900.0,18.2,3.3999999999999986,Montreal,Les Coteaux
+    Les Coteaux (2471033) MÉ 00000 (  3.8%),Immigrant,220.0,109000.0,16.3,175.0,121000.0,16.2,45.0,62000.0,17.0,0.8000000000000007,Montreal,Les Coteaux
+    Coteau-du-Lac (2471040) V 00000 (  2.5%),Total Immigrant Status,7125.0,134800.0,14.5,5810.0,148600.0,13.6,1315.0,73500.0,18.7,5.1,Montreal,Coteau-du-Lac
+    Coteau-du-Lac (2471040) V 00000 (  2.5%),Non-immigrants,6795.0,134600.0,14.4,5560.0,148200.0,13.4,1235.0,73600.0,18.7,5.299999999999999,Montreal,Coteau-du-Lac
+    Coteau-du-Lac (2471040) V 00000 (  2.5%),Immigrant,330.0,140500.0,17.0,255.0,160000.0,16.4,75.0,74000.0,18.8,2.400000000000002,Montreal,Coteau-du-Lac
+    Les Cèdres (2471050) MÉ 00000 (  2.4%),Total Immigrant Status,7100.0,126800.0,15.2,6435.0,128400.0,15.1,665.0,111000.0,17.0,1.9000000000000004,Montreal,Les Cèdres
+    Les Cèdres (2471050) MÉ 00000 (  2.4%),Non-immigrants,6485.0,124700.0,15.1,5915.0,129800.0,14.6,570.0,70400.0,19.8,5.200000000000001,Montreal,Les Cèdres
+    Les Cèdres (2471050) MÉ 00000 (  2.4%),Immigrant,615.0,149000.0,16.8,515.0,111600.0,20.0,0.0,,,,Montreal,Les Cèdres
+    Pointe-des-Cascades (2471055) VL 00000 (  1.1%),Total Immigrant Status,1755.0,114100.0,19.5,1405.0,124500.0,18.8,355.0,72800.0,22.3,3.5,Montreal,Pointe-des-Cascades
+    Pointe-des-Cascades (2471055) VL 00000 (  1.1%),Non-immigrants,1460.0,109900.0,19.0,1120.0,120800.0,17.9,340.0,73600.0,22.3,4.400000000000002,Montreal,Pointe-des-Cascades
+    Pointe-des-Cascades (2471055) VL 00000 (  1.1%),Immigrant,300.0,135000.0,22.2,285.0,139000.0,22.3,0.0,,,,Montreal,Pointe-des-Cascades
+    L'Île-Perrot (2471060) V 00000 (  2.5%),Total Immigrant Status,11095.0,109400.0,18.1,7985.0,124900.0,16.4,3110.0,69500.0,22.5,6.100000000000001,Montreal,L'Île-Perrot
+    L'Île-Perrot (2471060) V 00000 (  2.5%),Non-immigrants,8405.0,106700.0,17.6,5740.0,124100.0,15.5,2660.0,69200.0,22.1,6.600000000000001,Montreal,L'Île-Perrot
+    L'Île-Perrot (2471060) V 00000 (  2.5%),Immigrant,2695.0,117600.0,19.6,2245.0,126900.0,18.6,450.0,71200.0,24.6,6.0,Montreal,L'Île-Perrot
+    Notre-Dame-de-l'Île-Perrot (2471065) V 00000 (  1.3%),Total Immigrant Status,11345.0,156600.0,15.4,11015.0,158600.0,15.3,325.0,91600.0,19.1,3.8000000000000007,Montreal,Notre-Dame-de-l'Île-Perrot
+    Notre-Dame-de-l'Île-Perrot (2471065) V 00000 (  1.3%),Non-immigrants,8795.0,163000.0,14.3,8535.0,165000.0,14.2,260.0,96000.0,17.4,3.1999999999999993,Montreal,Notre-Dame-de-l'Île-Perrot
+    Notre-Dame-de-l'Île-Perrot (2471065) V 00000 (  1.3%),Immigrant,2550.0,134600.0,19.3,2480.0,136400.0,19.1,70.0,74000.0,25.6,6.5,Montreal,Notre-Dame-de-l'Île-Perrot
+    Pincourt (2471070) V 00000 (  1.6%),Total Immigrant Status,14615.0,127100.0,16.9,13500.0,131800.0,16.3,1115.0,71600.0,24.5,8.2,Montreal,Pincourt
+    Pincourt (2471070) V 00000 (  1.6%),Non-immigrants,10795.0,129200.0,15.9,9825.0,134800.0,15.1,970.0,73800.0,24.0,8.9,Montreal,Pincourt
+    Pincourt (2471070) V 00000 (  1.6%),Immigrant,3820.0,121100.0,19.7,3680.0,123600.0,19.4,140.0,57000.0,27.8,8.400000000000002,Montreal,Pincourt
+    Terrasse-Vaudreuil (2471075) MÉ 00000 (  2.5%),Total Immigrant Status,1880.0,113900.0,16.8,1455.0,125700.0,16.0,425.0,73200.0,19.4,3.3999999999999986,Montreal,Terrasse-Vaudreuil
+    Terrasse-Vaudreuil (2471075) MÉ 00000 (  2.5%),Non-immigrants,1465.0,113400.0,16.1,1095.0,127000.0,15.0,370.0,72800.0,19.1,4.100000000000001,Montreal,Terrasse-Vaudreuil
+    Terrasse-Vaudreuil (2471075) MÉ 00000 (  2.5%),Immigrant,415.0,115600.0,19.3,360.0,122000.0,19.0,50.0,74000.0,21.2,2.1999999999999993,Montreal,Terrasse-Vaudreuil
+    Vaudreuil-Dorion (2471083) V 00000 (  2.9%),Total Immigrant Status,41710.0,119600.0,18.4,33585.0,128600.0,17.3,8125.0,82300.0,23.0,5.699999999999999,Montreal,Vaudreuil-Dorion
+    Vaudreuil-Dorion (2471083) V 00000 (  2.9%),Non-immigrants,27715.0,119000.0,17.2,21415.0,130600.0,15.4,6300.0,79900.0,23.2,7.799999999999999,Montreal,Vaudreuil-Dorion
+    Vaudreuil-Dorion (2471083) V 00000 (  2.9%),Immigrant,13995.0,120800.0,20.8,12165.0,125400.0,20.5,1825.0,90300.0,22.4,1.8999999999999986,Montreal,Vaudreuil-Dorion
+    Vaudreuil-sur-le-Lac (2471090) VL 00000 (  0.8%),Total Immigrant Status,1330.0,178800.0,15.0,1295.0,181200.0,14.8,0.0,,,,Montreal,Vaudreuil-sur-le-Lac
+    Vaudreuil-sur-le-Lac (2471090) VL 00000 (  0.8%),Non-immigrants,1075.0,184000.0,13.0,1055.0,185200.0,12.9,0.0,,,,Montreal,Vaudreuil-sur-le-Lac
+    Vaudreuil-sur-le-Lac (2471090) VL 00000 (  0.8%),Immigrant,260.0,157000.0,23.3,240.0,162000.0,22.9,0.0,,,,Montreal,Vaudreuil-sur-le-Lac
+    L'Île-Cadieux (2471095) V 00909 (  7.1%),Total Immigrant Status,,,,,,,,,,,Montreal,L'Île-Cadieux
+    L'Île-Cadieux (2471095) V 00909 (  7.1%),Non-immigrants,,,,,,,,,,,Montreal,L'Île-Cadieux
+    L'Île-Cadieux (2471095) V 00909 (  7.1%),Immigrant,,,,,,,,,,,Montreal,L'Île-Cadieux
+    Hudson (2471100) V 00000 (  2.9%),Total Immigrant Status,5330.0,185400.0,17.3,4915.0,195600.0,16.5,415.0,66000.0,26.6,10.100000000000001,Montreal,Hudson
+    Hudson (2471100) V 00000 (  2.9%),Non-immigrants,4160.0,193000.0,16.9,3800.0,204600.0,16.1,360.0,69200.0,25.2,9.099999999999998,Montreal,Hudson
+    Hudson (2471100) V 00000 (  2.9%),Immigrant,1175.0,158000.0,18.7,1115.0,164400.0,17.8,60.0,48000.0,34.5,16.7,Montreal,Hudson
+    Saint-Lazare (2471105) V 00000 (  1.0%),Total Immigrant Status,22245.0,158000.0,16.4,21095.0,161800.0,16.1,1145.0,88200.0,21.3,5.199999999999999,Montreal,Saint-Lazare
+    Saint-Lazare (2471105) V 00000 (  1.0%),Non-immigrants,18420.0,162200.0,15.8,17530.0,166200.0,15.5,890.0,83600.0,20.6,5.100000000000001,Montreal,Saint-Lazare
+    Saint-Lazare (2471105) V 00000 (  1.0%),Immigrant,3825.0,137600.0,19.5,3565.0,140000.0,19.2,255.0,104000.0,23.7,4.5,Montreal,Saint-Lazare
+    Saint-Eustache (2472005) V 00000 (  2.1%),Total Immigrant Status,43795.0,113000.0,16.4,33650.0,126200.0,14.8,10145.0,69300.0,21.5,6.699999999999999,Montreal,Saint-Eustache
+    Saint-Eustache (2472005) V 00000 (  2.1%),Non-immigrants,37540.0,112700.0,16.0,28380.0,127500.0,14.1,9160.0,67100.0,21.9,7.799999999999999,Montreal,Saint-Eustache
+    Saint-Eustache (2472005) V 00000 (  2.1%),Immigrant,6260.0,114500.0,18.6,5275.0,119100.0,18.8,985.0,89800.0,17.4,-1.4000000000000021,Montreal,Saint-Eustache
+    Deux-Montagnes (2472010) V 00000 (  2.2%),Total Immigrant Status,17515.0,120400.0,16.5,13365.0,134400.0,15.0,4150.0,75500.0,21.4,6.399999999999999,Montreal,Deux-Montagnes
+    Deux-Montagnes (2472010) V 00000 (  2.2%),Non-immigrants,14305.0,121300.0,16.3,10585.0,137600.0,14.7,3725.0,75000.0,21.0,6.300000000000001,Montreal,Deux-Montagnes
+    Deux-Montagnes (2472010) V 00000 (  2.2%),Immigrant,3210.0,116000.0,17.7,2780.0,121600.0,16.6,430.0,80000.0,25.0,8.399999999999999,Montreal,Deux-Montagnes
+    Sainte-Marthe-sur-le-Lac (2472015) V 00000 (  2.0%),Total Immigrant Status,19740.0,126300.0,16.4,18145.0,130200.0,16.1,1595.0,81700.0,20.0,3.8999999999999986,Montreal,Sainte-Marthe-sur-le-Lac
+    Sainte-Marthe-sur-le-Lac (2472015) V 00000 (  2.0%),Non-immigrants,16020.0,125700.0,15.6,14620.0,129800.0,15.3,1405.0,81700.0,19.1,3.8000000000000007,Montreal,Sainte-Marthe-sur-le-Lac
+    Sainte-Marthe-sur-le-Lac (2472015) V 00000 (  2.0%),Immigrant,3720.0,129000.0,19.8,3530.0,131600.0,19.5,190.0,82000.0,26.1,6.600000000000001,Montreal,Sainte-Marthe-sur-le-Lac
+    Pointe-Calumet (2472020) MÉ 00000 (  2.7%),Total Immigrant Status,6260.0,103800.0,16.5,5015.0,110600.0,15.5,1245.0,76400.0,20.2,4.699999999999999,Montreal,Pointe-Calumet
+    Pointe-Calumet (2472020) MÉ 00000 (  2.7%),Non-immigrants,5925.0,103700.0,16.4,4710.0,111100.0,15.3,1220.0,75000.0,20.3,5.0,Montreal,Pointe-Calumet
+    Pointe-Calumet (2472020) MÉ 00000 (  2.7%),Immigrant,330.0,105600.0,18.3,305.0,102000.0,18.8,0.0,,,,Montreal,Pointe-Calumet
+    Saint-Joseph-du-Lac (2472025) MÉ 00000 (  3.7%),Total Immigrant Status,6790.0,129400.0,15.4,5680.0,139600.0,14.7,1110.0,77000.0,18.7,4.0,Montreal,Saint-Joseph-du-Lac
+    Saint-Joseph-du-Lac (2472025) MÉ 00000 (  3.7%),Non-immigrants,6475.0,126700.0,15.5,5385.0,137000.0,14.8,1095.0,76000.0,18.9,4.099999999999998,Montreal,Saint-Joseph-du-Lac
+    Saint-Joseph-du-Lac (2472025) MÉ 00000 (  3.7%),Immigrant,315.0,186000.0,13.4,295.0,190000.0,13.5,0.0,,,,Montreal,Saint-Joseph-du-Lac
+    Oka (2472032) MÉ 00000 (  4.0%),Total Immigrant Status,3785.0,133000.0,15.6,3235.0,143800.0,14.8,550.0,69600.0,20.5,5.699999999999999,Montreal,Oka
+    Oka (2472032) MÉ 00000 (  4.0%),Non-immigrants,3690.0,133600.0,15.5,3140.0,144600.0,14.6,540.0,70000.0,20.6,6.000000000000002,Montreal,Oka
+    Oka (2472032) MÉ 00000 (  4.0%),Immigrant,100.0,108000.0,21.0,95.0,114000.0,21.8,0.0,,,,Montreal,Oka
+    Saint-Placide (2472043) MÉ 00000 (  4.7%),Total Immigrant Status,1575.0,110900.0,17.9,1245.0,117600.0,16.5,330.0,86000.0,23.2,6.699999999999999,Montreal,Saint-Placide
+    Saint-Placide (2472043) MÉ 00000 (  4.7%),Non-immigrants,1460.0,108800.0,17.9,1145.0,115600.0,16.5,315.0,84000.0,23.2,6.699999999999999,Montreal,Saint-Placide
+    Saint-Placide (2472043) MÉ 00000 (  4.7%),Immigrant,110.0,138000.0,17.8,95.0,142000.0,16.8,0.0,,,,Montreal,Saint-Placide
+    Kanesatake (2472802) S-É 19999 (  0.0%),Total Immigrant Status,,,,,,,,,,,Montreal,Kanesatake
+    Kanesatake (2472802) S-É 19999 (  0.0%),Non-immigrants,,,,,,,,,,,Montreal,Kanesatake
+    Kanesatake (2472802) S-É 19999 (  0.0%),Immigrant,,,,,,,,,,,Montreal,Kanesatake
+    Boisbriand (2473005) V 00000 (  3.0%),Total Immigrant Status,28060.0,124900.0,17.1,20220.0,142400.0,15.3,7835.0,79900.0,22.0,6.699999999999999,Montreal,Boisbriand
+    Boisbriand (2473005) V 00000 (  3.0%),Non-immigrants,22555.0,127100.0,16.7,15750.0,148200.0,14.1,6805.0,78300.0,22.7,8.6,Montreal,Boisbriand
+    Boisbriand (2473005) V 00000 (  3.0%),Immigrant,5505.0,115700.0,19.0,4475.0,121600.0,19.4,1030.0,90400.0,17.3,-2.099999999999998,Montreal,Boisbriand
+    Sainte-Thérèse (2473010) V 00000 (  2.8%),Total Immigrant Status,24660.0,102200.0,18.7,13385.0,131000.0,15.9,11280.0,68100.0,21.9,5.999999999999998,Montreal,Sainte-Thérèse
+    Sainte-Thérèse (2473010) V 00000 (  2.8%),Non-immigrants,22035.0,103100.0,18.6,11800.0,133600.0,15.5,10235.0,67900.0,22.1,6.600000000000001,Montreal,Sainte-Thérèse
+    Sainte-Thérèse (2473010) V 00000 (  2.8%),Immigrant,2630.0,94700.0,19.8,1580.0,110900.0,19.2,1045.0,70200.0,20.7,1.5,Montreal,Sainte-Thérèse
+    Blainville (2473015) V 00000 (  1.6%),Total Immigrant Status,58615.0,155800.0,15.9,49050.0,169000.0,14.9,9570.0,89100.0,21.2,6.299999999999999,Montreal,Blainville
+    Blainville (2473015) V 00000 (  1.6%),Non-immigrants,48875.0,159200.0,15.2,40240.0,174400.0,13.8,8635.0,87700.0,21.4,7.599999999999998,Montreal,Blainville
+    Blainville (2473015) V 00000 (  1.6%),Immigrant,9745.0,139800.0,19.9,8805.0,143800.0,19.9,935.0,102200.0,19.4,-0.5,Montreal,Blainville
+    Rosemère (2473020) V 00000 (  1.2%),Total Immigrant Status,13955.0,169000.0,14.5,12800.0,176800.0,13.9,1160.0,83400.0,21.6,7.700000000000001,Montreal,Rosemère
+    Rosemère (2473020) V 00000 (  1.2%),Non-immigrants,11330.0,174800.0,13.8,10390.0,183600.0,13.1,935.0,77000.0,21.5,8.4,Montreal,Rosemère
+    Rosemère (2473020) V 00000 (  1.2%),Immigrant,2625.0,144200.0,17.7,2410.0,147400.0,17.3,220.0,111000.0,22.1,4.800000000000001,Montreal,Rosemère
+    Lorraine (2473025) V 00000 (  1.3%),Total Immigrant Status,9425.0,188400.0,14.6,9250.0,189600.0,14.5,180.0,129000.0,17.1,2.6000000000000014,Montreal,Lorraine
+    Lorraine (2473025) V 00000 (  1.3%),Non-immigrants,7875.0,192600.0,13.8,7735.0,194600.0,13.8,140.0,88000.0,18.0,4.199999999999999,Montreal,Lorraine
+    Lorraine (2473025) V 00000 (  1.3%),Immigrant,1555.0,167400.0,18.2,1510.0,164600.0,18.3,40.0,260000.0,,,Montreal,Lorraine
+    Bois-des-Filion (2473030) V 00000 (  2.7%),Total Immigrant Status,9935.0,114100.0,17.7,8060.0,123200.0,16.7,1875.0,75200.0,21.9,5.199999999999999,Montreal,Bois-des-Filion
+    Bois-des-Filion (2473030) V 00000 (  2.7%),Non-immigrants,7875.0,114200.0,17.1,6220.0,124800.0,15.8,1650.0,74100.0,22.0,6.199999999999999,Montreal,Bois-des-Filion
+    Bois-des-Filion (2473030) V 00000 (  2.7%),Immigrant,2065.0,114000.0,19.7,1840.0,117700.0,19.4,225.0,83000.0,21.6,2.200000000000003,Montreal,Bois-des-Filion
+    Sainte-Anne-des-Plaines (2473035) V 00000 (  1.9%),Total Immigrant Status,14365.0,107100.0,16.6,10800.0,119100.0,15.2,3575.0,70900.0,21.0,5.800000000000001,Montreal,Sainte-Anne-des-Plaines
+    Sainte-Anne-des-Plaines (2473035) V 00000 (  1.9%),Non-immigrants,13665.0,107200.0,16.4,10205.0,119600.0,14.9,3460.0,70600.0,20.8,5.9,Montreal,Sainte-Anne-des-Plaines
+    Sainte-Anne-des-Plaines (2473035) V 00000 (  1.9%),Immigrant,705.0,105200.0,20.3,595.0,110000.0,19.3,110.0,79000.0,25.8,6.5,Montreal,Sainte-Anne-des-Plaines
+    Mirabel (2474005) V 00000 (  2.5%),Total Immigrant Status,59970.0,120700.0,16.6,43655.0,135800.0,15.1,16315.0,80100.0,20.8,5.700000000000001,Montreal,Mirabel
+    Mirabel (2474005) V 00000 (  2.5%),Non-immigrants,55355.0,121400.0,16.3,40045.0,137400.0,14.6,15305.0,80000.0,20.7,6.1,Montreal,Mirabel
+    Mirabel (2474005) V 00000 (  2.5%),Immigrant,4610.0,111200.0,20.7,3605.0,119100.0,20.1,1005.0,83200.0,22.6,2.5,Montreal,Mirabel
+    Saint-Colomban (2475005) V 00000 (  2.0%),Total Immigrant Status,17615.0,124000.0,16.0,15795.0,129000.0,15.6,1820.0,80900.0,18.8,3.200000000000001,Montreal,Saint-Colomban
+    Saint-Colomban (2475005) V 00000 (  2.0%),Non-immigrants,16925.0,124200.0,15.9,15155.0,129000.0,15.6,1765.0,81800.0,18.8,3.200000000000001,Montreal,Saint-Colomban
+    Saint-Colomban (2475005) V 00000 (  2.0%),Immigrant,690.0,120200.0,17.8,640.0,126000.0,17.6,55.0,50000.0,20.0,2.3999999999999986,Montreal,Saint-Colomban
+    Saint-Jérôme (2475017) V 00000 (  3.6%),Total Immigrant Status,77220.0,96100.0,18.7,45830.0,117400.0,15.9,31395.0,65000.0,22.8,6.9,Montreal,Saint-Jérôme
+    Saint-Jérôme (2475017) V 00000 (  3.6%),Non-immigrants,70830.0,95400.0,18.6,41640.0,117500.0,15.5,29190.0,63850.0,23.0,7.5,Montreal,Saint-Jérôme
+    Saint-Jérôme (2475017) V 00000 (  3.6%),Immigrant,6390.0,104200.0,20.0,4185.0,116500.0,20.1,2205.0,80800.0,19.8,-0.3000000000000007,Montreal,Saint-Jérôme
+    Gore (2476025) CT 01010 ( 12.2%),Total Immigrant Status,2255.0,102300.0,14.5,1975.0,105200.0,13.7,280.0,82000.0,20.3,6.600000000000001,Montreal,Gore
+    Gore (2476025) CT 01010 ( 12.2%),Non-immigrants,2040.0,103100.0,14.7,1775.0,106000.0,13.9,265.0,84000.0,20.0,6.1,Montreal,Gore
+    Gore (2476025) CT 01010 ( 12.2%),Immigrant,215.0,95000.0,12.5,195.0,98000.0,11.4,0.0,,,,Montreal,Gore
+"  Toronto (CMA), Ont. 00000 (  3.6%)",Total Immigrant Status,5955865.0,157000.0,22.8,4237775.0,180200.0,21.2,1718085.0,99800.0,26.9,5.699999999999999,Toronto,Toronto
+"  Toronto (CMA), Ont. 00000 (  3.6%)",Non-immigrants,2060475.0,189600.0,20.2,1510640.0,221000.0,17.6,549830.0,103800.0,27.3,9.7,Toronto,Toronto
+"  Toronto (CMA), Ont. 00000 (  3.6%)",Immigrant,3895390.0,139800.0,24.2,2727130.0,157800.0,23.2,1168255.0,97900.0,26.7,3.5,Toronto,Toronto
+    Pickering (3518001) CY 00000 (  2.2%),Total Immigrant Status,97075.0,162600.0,21.2,84715.0,171000.0,20.4,12355.0,104500.0,26.6,6.200000000000003,Toronto,Pickering
+    Pickering (3518001) CY 00000 (  2.2%),Non-immigrants,46360.0,171800.0,18.4,39795.0,183400.0,17.1,6560.0,101700.0,26.5,9.399999999999999,Toronto,Pickering
+    Pickering (3518001) CY 00000 (  2.2%),Immigrant,50715.0,154000.0,23.7,44920.0,160000.0,23.3,5800.0,107600.0,26.6,3.3000000000000007,Toronto,Pickering
+    Ajax (3518005) T 00000 (  1.9%),Total Immigrant Status,124910.0,153400.0,22.3,108220.0,160400.0,21.7,16695.0,107900.0,26.2,4.5,Toronto,Ajax
+    Ajax (3518005) T 00000 (  1.9%),Non-immigrants,46395.0,157200.0,19.2,38500.0,167800.0,17.8,7895.0,106300.0,26.1,8.3,Toronto,Ajax
+    Ajax (3518005) T 00000 (  1.9%),Immigrant,78520.0,151200.0,24.1,69725.0,156400.0,23.9,8800.0,109300.0,26.3,2.400000000000002,Toronto,Ajax
+    Uxbridge (3518029) TP 00000 (  3.2%),Total Immigrant Status,20500.0,178800.0,19.0,18190.0,189600.0,18.2,2305.0,93600.0,25.2,7.0,Toronto,Uxbridge
+    Uxbridge (3518029) TP 00000 (  3.2%),Non-immigrants,17005.0,184000.0,18.4,14990.0,195800.0,17.5,2020.0,95600.0,25.2,7.699999999999999,Toronto,Uxbridge
+    Uxbridge (3518029) TP 00000 (  3.2%),Immigrant,3490.0,153400.0,21.7,3200.0,160000.0,21.4,290.0,80000.0,25.4,4.0,Toronto,Uxbridge
+    Vaughan (3519028) CY 00000 (  2.3%),Total Immigrant Status,313230.0,179600.0,21.9,277735.0,188200.0,20.6,35490.0,111500.0,31.4,10.799999999999997,Toronto,Vaughan
+    Vaughan (3519028) CY 00000 (  2.3%),Non-immigrants,108265.0,213800.0,18.3,97935.0,223800.0,17.0,10330.0,117100.0,30.5,13.5,Toronto,Vaughan
+    Vaughan (3519028) CY 00000 (  2.3%),Immigrant,204965.0,161600.0,23.8,179805.0,168800.0,22.6,25160.0,109200.0,31.8,9.2,Toronto,Vaughan
+    Markham (3519036) CY 00000 (  2.0%),Total Immigrant Status,323895.0,154200.0,23.8,273980.0,163000.0,22.7,49920.0,105900.0,30.3,7.600000000000001,Toronto,Markham
+    Markham (3519036) CY 00000 (  2.0%),Non-immigrants,59195.0,190200.0,18.9,48590.0,207200.0,16.8,10610.0,112200.0,28.7,11.899999999999999,Toronto,Markham
+    Markham (3519036) CY 00000 (  2.0%),Immigrant,264705.0,146200.0,24.9,225390.0,153400.0,23.9,39315.0,104200.0,30.7,6.800000000000001,Toronto,Markham
+    Richmond Hill (3519038) T 00000 (  2.1%),Total Immigrant Status,189365.0,163800.0,25.2,153900.0,178000.0,23.6,35470.0,102600.0,31.8,8.2,Toronto,Richmond Hill
+    Richmond Hill (3519038) T 00000 (  2.1%),Non-immigrants,43030.0,199600.0,18.5,35080.0,218600.0,16.5,7945.0,115800.0,27.6,11.100000000000001,Toronto,Richmond Hill
+    Richmond Hill (3519038) T 00000 (  2.1%),Immigrant,146335.0,153400.0,27.1,118815.0,166000.0,25.7,27520.0,98800.0,33.1,7.400000000000002,Toronto,Richmond Hill
+    Whitchurch-Stouffville (3519044) T 00000 (  1.6%),Total Immigrant Status,48135.0,169400.0,22.4,43550.0,175400.0,21.9,4590.0,111600.0,26.9,5.0,Toronto,Whitchurch-Stouffville
+    Whitchurch-Stouffville (3519044) T 00000 (  1.6%),Non-immigrants,24680.0,182600.0,19.4,21730.0,191200.0,18.6,2950.0,119400.0,25.8,7.199999999999999,Toronto,Whitchurch-Stouffville
+    Whitchurch-Stouffville (3519044) T 00000 (  1.6%),Immigrant,23460.0,155400.0,25.5,21815.0,159800.0,25.3,1640.0,97500.0,28.7,3.3999999999999986,Toronto,Whitchurch-Stouffville
+    Aurora (3519046) T 00000 (  1.8%),Total Immigrant Status,59420.0,187200.0,22.8,49665.0,202400.0,21.5,9755.0,109800.0,29.3,7.800000000000001,Toronto,Aurora
+    Aurora (3519046) T 00000 (  1.8%),Non-immigrants,29775.0,220200.0,18.1,24740.0,242400.0,16.3,5030.0,111700.0,27.3,11.0,Toronto,Aurora
+    Aurora (3519046) T 00000 (  1.8%),Immigrant,29650.0,154000.0,27.5,24925.0,162800.0,26.7,4725.0,107800.0,31.5,4.800000000000001,Toronto,Aurora
+    Newmarket (3519048) T 00000 (  2.1%),Total Immigrant Status,84735.0,154600.0,22.4,67930.0,168000.0,21.2,16805.0,100600.0,27.3,6.100000000000001,Toronto,Newmarket
+    Newmarket (3519048) T 00000 (  2.1%),Non-immigrants,46650.0,168000.0,18.5,36155.0,187600.0,16.3,10495.0,100400.0,25.9,9.599999999999998,Toronto,Newmarket
+    Newmarket (3519048) T 00000 (  2.1%),Immigrant,38085.0,138400.0,27.2,31775.0,145800.0,26.8,6310.0,100900.0,29.5,2.6999999999999993,Toronto,Newmarket
+    King (3519049) TP 00000 (  3.0%),Total Immigrant Status,25875.0,224000.0,21.6,23485.0,234600.0,21.5,2390.0,119300.0,22.7,1.1999999999999993,Toronto,King
+    King (3519049) TP 00000 (  3.0%),Non-immigrants,16815.0,241800.0,18.9,15125.0,254200.0,18.5,1690.0,131000.0,22.1,3.6000000000000014,Toronto,King
+    King (3519049) TP 00000 (  3.0%),Immigrant,9055.0,190600.0,26.8,8360.0,199000.0,27.0,700.0,91400.0,24.2,-2.8000000000000007,Toronto,King
+    East Gwillimbury (3519054) T 00000 (  2.9%),Total Immigrant Status,33195.0,158000.0,22.8,28310.0,164800.0,21.8,4890.0,118200.0,28.7,6.899999999999999,Toronto,East Gwillimbury
+    East Gwillimbury (3519054) T 00000 (  2.9%),Non-immigrants,19725.0,168800.0,19.2,16670.0,178200.0,17.7,3055.0,118200.0,27.3,9.600000000000001,Toronto,East Gwillimbury
+    East Gwillimbury (3519054) T 00000 (  2.9%),Immigrant,13475.0,141800.0,28.1,11640.0,145600.0,27.6,1835.0,118300.0,31.0,3.3999999999999986,Toronto,East Gwillimbury
+    Georgina (3519070) T 00000 (  4.6%),Total Immigrant Status,46110.0,133800.0,21.1,38805.0,141800.0,20.0,7305.0,90600.0,26.7,6.699999999999999,Toronto,Georgina
+    Georgina (3519070) T 00000 (  4.6%),Non-immigrants,36765.0,134200.0,19.9,30515.0,142800.0,18.6,6250.0,92500.0,26.3,7.699999999999999,Toronto,Georgina
+    Georgina (3519070) T 00000 (  4.6%),Immigrant,9345.0,132000.0,25.5,8290.0,138800.0,25.1,1055.0,79000.0,28.9,3.799999999999997,Toronto,Georgina
+    Chippewas of Georgina Island First Nation (3519076) IRI 04949 ( 42.9%),Total Immigrant Status,,,,,,,,,,,Toronto,Chippewas of Georgina Island First Nation
+    Chippewas of Georgina Island First Nation (3519076) IRI 04949 ( 42.9%),Non-immigrants,,,,,,,,,,,Toronto,Chippewas of Georgina Island First Nation
+    Chippewas of Georgina Island First Nation (3519076) IRI 04949 ( 42.9%),Immigrant,,,,,,,,,,,Toronto,Chippewas of Georgina Island First Nation
+    Toronto (3520005) C 00000 (  4.7%),Total Immigrant Status,2663675.0,152400.0,23.0,1529530.0,193800.0,20.5,1134145.0,96900.0,26.4,5.899999999999999,Toronto,Toronto
+    Toronto (3520005) C 00000 (  4.7%),Non-immigrants,950235.0,197600.0,21.6,588470.0,255800.0,17.9,361765.0,103200.0,27.5,9.600000000000001,Toronto,Toronto
+    Toronto (3520005) C 00000 (  4.7%),Immigrant,1713440.0,127400.0,23.8,941065.0,155000.0,22.1,772380.0,93900.0,25.8,3.6999999999999993,Toronto,Toronto
+    Mississauga (3521005) CY 00000 (  2.3%),Total Immigrant Status,694110.0,151000.0,22.1,513330.0,169000.0,20.4,180780.0,100000.0,26.9,6.5,Toronto,Mississauga
+    Mississauga (3521005) CY 00000 (  2.3%),Non-immigrants,183860.0,177400.0,19.2,142260.0,200400.0,17.2,41605.0,98500.0,26.2,9.0,Toronto,Mississauga
+    Mississauga (3521005) CY 00000 (  2.3%),Immigrant,510250.0,141600.0,23.1,371075.0,157000.0,21.6,139175.0,100500.0,27.1,5.5,Toronto,Mississauga
+    Brampton (3521010) CY 00000 (  3.3%),Total Immigrant Status,641015.0,144200.0,24.4,523560.0,153200.0,24.0,117460.0,104400.0,26.1,2.1000000000000014,Toronto,Brampton
+    Brampton (3521010) CY 00000 (  3.3%),Non-immigrants,117295.0,145600.0,20.6,90670.0,160800.0,18.8,26620.0,94100.0,26.6,7.800000000000001,Toronto,Brampton
+    Brampton (3521010) CY 00000 (  3.3%),Immigrant,523730.0,144000.0,25.2,432890.0,151600.0,25.1,90835.0,107400.0,25.9,0.7999999999999972,Toronto,Brampton
+    Caledon (3521024) T 00000 (  3.8%),Total Immigrant Status,74410.0,175200.0,20.7,68225.0,180200.0,20.1,6185.0,120500.0,26.5,6.399999999999999,Toronto,Caledon
+    Caledon (3521024) T 00000 (  3.8%),Non-immigrants,42045.0,183600.0,18.2,38510.0,190000.0,17.5,3535.0,114100.0,26.2,8.7,Toronto,Caledon
+    Caledon (3521024) T 00000 (  3.8%),Immigrant,32360.0,164200.0,23.8,29715.0,167400.0,23.6,2645.0,129000.0,27.0,3.3999999999999986,Toronto,Caledon
+    Mono (3522012) T 00000 (  3.0%),Total Immigrant Status,9055.0,200200.0,18.3,8720.0,202800.0,18.1,335.0,131000.0,23.1,5.0,Toronto,Mono
+    Mono (3522012) T 00000 (  3.0%),Non-immigrants,6385.0,208200.0,17.5,6125.0,212200.0,17.0,260.0,115000.0,27.6,10.600000000000001,Toronto,Mono
+    Mono (3522012) T 00000 (  3.0%),Immigrant,2670.0,180800.0,20.3,2595.0,180800.0,20.7,75.0,185000.0,7.9,-12.799999999999999,Toronto,Mono
+    Orangeville (3522014) T 00000 (  2.0%),Total Immigrant Status,29395.0,135000.0,21.5,23765.0,147200.0,20.0,5630.0,84000.0,27.9,7.899999999999999,Toronto,Orangeville
+    Orangeville (3522014) T 00000 (  2.0%),Non-immigrants,23510.0,137600.0,20.9,18865.0,150800.0,19.2,4645.0,83700.0,28.0,8.8,Toronto,Orangeville
+    Orangeville (3522014) T 00000 (  2.0%),Immigrant,5885.0,124900.0,24.0,4900.0,132800.0,23.4,985.0,85600.0,27.1,3.700000000000003,Toronto,Orangeville
+    Oakville (3524001) T 00000 (  1.8%),Total Immigrant Status,203060.0,219400.0,21.4,164735.0,240200.0,19.5,38330.0,130200.0,29.8,10.3,Toronto,Oakville
+    Oakville (3524001) T 00000 (  1.8%),Non-immigrants,92550.0,258400.0,17.7,77515.0,283600.0,15.6,15035.0,127000.0,28.2,12.6,Toronto,Oakville
+    Oakville (3524001) T 00000 (  1.8%),Immigrant,110510.0,187000.0,24.6,87215.0,201600.0,22.9,23295.0,132200.0,30.8,7.900000000000002,Toronto,Oakville
+    Milton (3524009) T 00000 (  2.6%),Total Immigrant Status,128990.0,159000.0,23.1,109715.0,166600.0,22.0,19275.0,115500.0,29.2,7.199999999999999,Toronto,Milton
+    Milton (3524009) T 00000 (  2.6%),Non-immigrants,52620.0,170600.0,19.7,44580.0,180800.0,18.3,8040.0,114300.0,27.5,9.2,Toronto,Milton
+    Milton (3524009) T 00000 (  2.6%),Immigrant,76365.0,151000.0,25.5,65135.0,157000.0,24.6,11235.0,116300.0,30.4,5.799999999999997,Toronto,Milton
+    Halton Hills (3524015) T 00000 (  2.2%),Total Immigrant Status,61390.0,178000.0,18.8,55070.0,187000.0,17.9,6320.0,99400.0,26.9,9.0,Toronto,Halton Hills
+    Halton Hills (3524015) T 00000 (  2.2%),Non-immigrants,45365.0,181400.0,17.8,40405.0,191400.0,16.8,4960.0,100200.0,26.1,9.3,Toronto,Halton Hills
+    Halton Hills (3524015) T 00000 (  2.2%),Immigrant,16020.0,168200.0,21.6,14665.0,175000.0,20.8,1360.0,96700.0,29.9,9.099999999999998,Toronto,Halton Hills
+    New Tecumseth (3543007) T 00000 (  2.0%),Total Immigrant Status,42730.0,132200.0,21.3,36740.0,138400.0,20.5,5985.0,94500.0,26.4,5.899999999999999,Toronto,New Tecumseth
+    New Tecumseth (3543007) T 00000 (  2.0%),Non-immigrants,30615.0,134000.0,20.1,25720.0,141600.0,19.0,4895.0,93400.0,26.2,7.199999999999999,Toronto,New Tecumseth
+    New Tecumseth (3543007) T 00000 (  2.0%),Immigrant,12110.0,128000.0,24.4,11025.0,130800.0,24.1,1090.0,99400.0,27.3,3.1999999999999993,Toronto,New Tecumseth
+    Bradford West Gwillimbury (3543014) T 00000 (  4.3%),Total Immigrant Status,41580.0,144600.0,23.0,35905.0,150800.0,22.6,5680.0,105100.0,25.2,2.599999999999998,Toronto,Bradford West Gwillimbury
+    Bradford West Gwillimbury (3543014) T 00000 (  4.3%),Non-immigrants,21335.0,150600.0,20.4,17685.0,159800.0,19.5,3650.0,105700.0,25.1,5.600000000000001,Toronto,Bradford West Gwillimbury
+    Bradford West Gwillimbury (3543014) T 00000 (  4.3%),Immigrant,20245.0,138400.0,25.7,18215.0,142200.0,25.7,2030.0,104200.0,25.3,-0.3999999999999986,Toronto,Bradford West Gwillimbury
+"  Edmonton (CMA), Alta. 00000 (  5.3%)",Total Immigrant Status,1367905.0,138400.0,20.4,1004550.0,156600.0,18.5,363355.0,88300.0,25.3,6.800000000000001,Edmonton,Edmonton
+"  Edmonton (CMA), Alta. 00000 (  5.3%)",Non-immigrants,878150.0,143000.0,19.7,654765.0,162000.0,17.5,223385.0,87800.0,26.3,8.8,Edmonton,Edmonton
+"  Edmonton (CMA), Alta. 00000 (  5.3%)",Immigrant,489760.0,130400.0,21.5,349790.0,146800.0,20.5,139970.0,89200.0,23.7,3.1999999999999993,Edmonton,Edmonton
+    Bruderheim (4810066) T 00000 (  6.6%),Total Immigrant Status,1310.0,125600.0,17.1,1090.0,129200.0,16.5,220.0,108000.0,20.3,3.8000000000000007,Edmonton,Bruderheim
+    Bruderheim (4810066) T 00000 (  6.6%),Non-immigrants,1300.0,126400.0,17.1,1075.0,130000.0,16.4,220.0,108000.0,20.3,3.900000000000002,Edmonton,Bruderheim
+    Bruderheim (4810066) T 00000 (  6.6%),Immigrant,0.0,,,0.0,,,0.0,,,,Edmonton,Bruderheim
+    Leduc County (4811012) MD 00000 (  9.2%),Total Immigrant Status,12525.0,155400.0,19.0,11210.0,162800.0,18.6,1320.0,92600.0,22.9,4.299999999999997,Edmonton,Leduc County
+    Leduc County (4811012) MD 00000 (  9.2%),Non-immigrants,11130.0,156200.0,18.6,9950.0,163400.0,18.1,1185.0,96200.0,23.3,5.199999999999999,Edmonton,Leduc County
+    Leduc County (4811012) MD 00000 (  9.2%),Immigrant,1390.0,149000.0,22.4,1255.0,158400.0,22.7,135.0,61000.0,19.2,-3.5,Edmonton,Leduc County
+    Beaumont (4811013) CY 00000 (  4.4%),Total Immigrant Status,20560.0,160600.0,20.1,18350.0,167800.0,19.3,2215.0,102300.0,26.8,7.5,Edmonton,Beaumont
+    Beaumont (4811013) CY 00000 (  4.4%),Non-immigrants,16140.0,162000.0,19.6,14360.0,169600.0,18.7,1785.0,101700.0,26.9,8.2,Edmonton,Beaumont
+    Beaumont (4811013) CY 00000 (  4.4%),Immigrant,4420.0,155600.0,22.2,3995.0,161200.0,21.8,425.0,104800.0,26.4,4.599999999999998,Edmonton,Beaumont
+    Leduc (4811016) CY 00000 (  5.0%),Total Immigrant Status,33260.0,133600.0,20.7,25230.0,146200.0,19.2,8035.0,94100.0,25.3,6.100000000000001,Edmonton,Leduc
+    Leduc (4811016) CY 00000 (  5.0%),Non-immigrants,28215.0,136200.0,20.6,21655.0,149200.0,18.8,6555.0,93500.0,26.3,7.5,Edmonton,Leduc
+    Leduc (4811016) CY 00000 (  5.0%),Immigrant,5045.0,119300.0,21.2,3565.0,128600.0,21.4,1475.0,97200.0,20.9,-0.5,Edmonton,Leduc
+    Devon (4811018) T 00000 (  1.9%),Total Immigrant Status,6345.0,121900.0,20.9,5035.0,131800.0,18.8,1310.0,83900.0,28.8,10.0,Edmonton,Devon
+    Devon (4811018) T 00000 (  1.9%),Non-immigrants,5870.0,123400.0,20.9,4710.0,134000.0,18.7,1160.0,80200.0,30.0,11.3,Edmonton,Devon
+    Devon (4811018) T 00000 (  1.9%),Immigrant,475.0,104000.0,20.3,330.0,100400.0,20.6,150.0,112000.0,19.6,-1.0,Edmonton,Devon
+    Calmar (4811019) T 00000 (  3.2%),Total Immigrant Status,2165.0,113500.0,21.4,1815.0,119900.0,19.8,355.0,80800.0,29.8,10.0,Edmonton,Calmar
+    Calmar (4811019) T 00000 (  3.2%),Non-immigrants,2030.0,114100.0,21.5,1685.0,120700.0,19.8,345.0,82000.0,30.1,10.3,Edmonton,Calmar
+    Calmar (4811019) T 00000 (  3.2%),Immigrant,140.0,104000.0,19.8,125.0,110000.0,19.6,0.0,,,,Edmonton,Calmar
+    Sundance Beach (4811020) SV 04999 ( 60.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Sundance Beach
+    Sundance Beach (4811020) SV 04999 ( 60.0%),Non-immigrants,,,,,,,,,,,Edmonton,Sundance Beach
+    Sundance Beach (4811020) SV 04999 ( 60.0%),Immigrant,,,,,,,,,,,Edmonton,Sundance Beach
+    Thorsby (4811021) T 00010 ( 12.9%),Total Immigrant Status,945.0,117800.0,19.1,785.0,125600.0,18.5,160.0,80000.0,22.2,3.6999999999999993,Edmonton,Thorsby
+    Thorsby (4811021) T 00010 ( 12.9%),Non-immigrants,885.0,118000.0,19.5,740.0,125000.0,18.9,145.0,82000.0,22.2,3.3000000000000007,Edmonton,Thorsby
+    Thorsby (4811021) T 00010 ( 12.9%),Immigrant,55.0,116000.0,13.8,0.0,,,0.0,,,,Edmonton,Thorsby
+    Itaska Beach (4811022) SV 09999 ( 50.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Itaska Beach
+    Itaska Beach (4811022) SV 09999 ( 50.0%),Non-immigrants,,,,,,,,,,,Edmonton,Itaska Beach
+    Itaska Beach (4811022) SV 09999 ( 50.0%),Immigrant,,,,,,,,,,,Edmonton,Itaska Beach
+    Golden Days (4811023) SV 02919 ( 14.8%),Total Immigrant Status,,,,,,,,,,,Edmonton,Golden Days
+    Golden Days (4811023) SV 02919 ( 14.8%),Non-immigrants,,,,,,,,,,,Edmonton,Golden Days
+    Golden Days (4811023) SV 02919 ( 14.8%),Immigrant,,,,,,,,,,,Edmonton,Golden Days
+    Warburg (4811024) VL 00010 ( 12.9%),Total Immigrant Status,645.0,86200.0,20.4,455.0,90800.0,19.2,190.0,75500.0,23.3,4.100000000000001,Edmonton,Warburg
+    Warburg (4811024) VL 00010 ( 12.9%),Non-immigrants,600.0,86800.0,19.8,435.0,92000.0,18.3,165.0,73000.0,23.7,5.399999999999999,Edmonton,Warburg
+    Warburg (4811024) VL 00010 ( 12.9%),Immigrant,0.0,,,0.0,,,0.0,,,,Edmonton,Warburg
+    Parkland County (4811034) MD 00000 (  6.8%),Total Immigrant Status,30350.0,164800.0,17.3,28210.0,169400.0,17.0,2145.0,103700.0,22.5,5.5,Edmonton,Parkland County
+    Parkland County (4811034) MD 00000 (  6.8%),Non-immigrants,27390.0,165000.0,17.2,25390.0,170000.0,16.8,2000.0,101700.0,22.4,5.599999999999998,Edmonton,Parkland County
+    Parkland County (4811034) MD 00000 (  6.8%),Immigrant,2960.0,162000.0,18.6,2820.0,163600.0,18.4,145.0,132000.0,22.8,4.400000000000002,Edmonton,Parkland County
+    Seba Beach (4811038) SV 04949 ( 41.7%),Total Immigrant Status,,,,,,,,,,,Edmonton,Seba Beach
+    Seba Beach (4811038) SV 04949 ( 41.7%),Non-immigrants,,,,,,,,,,,Edmonton,Seba Beach
+    Seba Beach (4811038) SV 04949 ( 41.7%),Immigrant,,,,,,,,,,,Edmonton,Seba Beach
+    Betula Beach (4811039) SV 09999 ( 33.3%),Total Immigrant Status,,,,,,,,,,,Edmonton,Betula Beach
+    Betula Beach (4811039) SV 09999 ( 33.3%),Non-immigrants,,,,,,,,,,,Edmonton,Betula Beach
+    Betula Beach (4811039) SV 09999 ( 33.3%),Immigrant,,,,,,,,,,,Edmonton,Betula Beach
+    Point Alison (4811041) SV 09999 (  0.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Point Alison
+    Point Alison (4811041) SV 09999 (  0.0%),Non-immigrants,,,,,,,,,,,Edmonton,Point Alison
+    Point Alison (4811041) SV 09999 (  0.0%),Immigrant,,,,,,,,,,,Edmonton,Point Alison
+    Lakeview (4811042) SV 09999 ( 50.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Lakeview
+    Lakeview (4811042) SV 09999 ( 50.0%),Non-immigrants,,,,,,,,,,,Edmonton,Lakeview
+    Lakeview (4811042) SV 09999 ( 50.0%),Immigrant,,,,,,,,,,,Edmonton,Lakeview
+    Kapasiwin (4811044) SV 09999 ( 75.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Kapasiwin
+    Kapasiwin (4811044) SV 09999 ( 75.0%),Non-immigrants,,,,,,,,,,,Edmonton,Kapasiwin
+    Kapasiwin (4811044) SV 09999 ( 75.0%),Immigrant,,,,,,,,,,,Edmonton,Kapasiwin
+    Spring Lake (4811046) VL 00000 (  5.3%),Total Immigrant Status,710.0,153200.0,17.2,640.0,160000.0,17.0,70.0,92000.0,18.8,1.8000000000000007,Edmonton,Spring Lake
+    Spring Lake (4811046) VL 00000 (  5.3%),Non-immigrants,650.0,156000.0,17.3,580.0,164000.0,17.1,70.0,92000.0,18.8,1.6999999999999993,Edmonton,Spring Lake
+    Spring Lake (4811046) VL 00000 (  5.3%),Immigrant,60.0,124000.0,15.8,60.0,124000.0,15.8,0.0,,,,Edmonton,Spring Lake
+    Stony Plain (4811048) T 00000 (  4.2%),Total Immigrant Status,17100.0,126000.0,20.3,12950.0,137200.0,18.2,4150.0,90900.0,26.8,8.600000000000001,Edmonton,Stony Plain
+    Stony Plain (4811048) T 00000 (  4.2%),Non-immigrants,15575.0,125800.0,20.3,11835.0,138200.0,18.0,3735.0,86600.0,27.5,9.5,Edmonton,Stony Plain
+    Stony Plain (4811048) T 00000 (  4.2%),Immigrant,1530.0,128800.0,19.8,1115.0,128400.0,19.6,415.0,129500.0,20.4,0.7999999999999972,Edmonton,Stony Plain
+    Spruce Grove (4811049) CY 00000 (  2.7%),Total Immigrant Status,37145.0,136600.0,20.1,29345.0,148600.0,18.1,7795.0,91000.0,27.7,9.599999999999998,Edmonton,Spruce Grove
+    Spruce Grove (4811049) CY 00000 (  2.7%),Non-immigrants,32395.0,137400.0,19.9,25680.0,149600.0,17.8,6720.0,91000.0,27.6,9.8,Edmonton,Spruce Grove
+    Spruce Grove (4811049) CY 00000 (  2.7%),Immigrant,4740.0,130400.0,22.1,3665.0,142000.0,20.3,1070.0,90600.0,28.2,7.899999999999999,Edmonton,Spruce Grove
+    Strathcona County (4811052) SM 00000 (  2.2%),Total Immigrant Status,95990.0,172000.0,17.3,85375.0,180600.0,16.2,10620.0,103400.0,25.7,9.5,Edmonton,Strathcona County
+    Strathcona County (4811052) SM 00000 (  2.2%),Non-immigrants,83335.0,172200.0,17.2,74510.0,180400.0,16.1,8825.0,102000.0,26.2,10.099999999999998,Edmonton,Strathcona County
+    Strathcona County (4811052) SM 00000 (  2.2%),Immigrant,12655.0,171600.0,18.0,10865.0,181600.0,17.1,1790.0,110200.0,23.3,6.199999999999999,Edmonton,Strathcona County
+    Fort Saskatchewan (4811056) CY 00000 (  3.7%),Total Immigrant Status,26340.0,147800.0,18.3,21015.0,161600.0,16.6,5325.0,93500.0,25.3,8.7,Edmonton,Fort Saskatchewan
+    Fort Saskatchewan (4811056) CY 00000 (  3.7%),Non-immigrants,23255.0,150000.0,18.1,18565.0,164000.0,16.3,4690.0,94200.0,25.4,9.099999999999998,Edmonton,Fort Saskatchewan
+    Fort Saskatchewan (4811056) CY 00000 (  3.7%),Immigrant,3085.0,131200.0,19.7,2450.0,142200.0,18.4,635.0,88800.0,25.0,6.600000000000001,Edmonton,Fort Saskatchewan
+    Sturgeon County (4811059) MD 00000 (  9.1%),Total Immigrant Status,18160.0,172800.0,17.0,15735.0,182200.0,17.0,2425.0,112200.0,17.4,0.3999999999999986,Edmonton,Sturgeon County
+    Sturgeon County (4811059) MD 00000 (  9.1%),Non-immigrants,16430.0,171600.0,17.0,14125.0,181200.0,16.9,2305.0,112600.0,17.3,0.40000000000000213,Edmonton,Sturgeon County
+    Sturgeon County (4811059) MD 00000 (  9.1%),Immigrant,1730.0,184000.0,17.5,1615.0,189800.0,17.4,115.0,104000.0,18.2,0.8000000000000007,Edmonton,Sturgeon County
+    Edmonton (4811061) CY 00000 (  5.6%),Total Immigrant Status,979875.0,132200.0,21.0,675070.0,152600.0,19.1,304800.0,86700.0,25.3,6.199999999999999,Edmonton,Edmonton
+    Edmonton (4811061) CY 00000 (  5.6%),Non-immigrants,540335.0,135400.0,20.5,366525.0,159000.0,17.7,173805.0,85600.0,26.4,8.7,Edmonton,Edmonton
+    Edmonton (4811061) CY 00000 (  5.6%),Immigrant,439540.0,128200.0,21.6,308550.0,145200.0,20.7,130995.0,88300.0,23.8,3.1000000000000014,Edmonton,Edmonton
+    St. Albert (4811062) CY 00000 (  3.0%),Total Immigrant Status,66160.0,160800.0,18.4,56810.0,171000.0,17.1,9350.0,99000.0,26.5,9.399999999999999,Edmonton,St. Albert
+    St. Albert (4811062) CY 00000 (  3.0%),Non-immigrants,55355.0,163200.0,18.2,48290.0,173200.0,16.9,7070.0,95300.0,27.5,10.600000000000001,Edmonton,St. Albert
+    St. Albert (4811062) CY 00000 (  3.0%),Immigrant,10805.0,148000.0,19.5,8520.0,158000.0,18.5,2280.0,110300.0,23.6,5.100000000000001,Edmonton,St. Albert
+    Gibbons (4811064) T 00010 ( 11.9%),Total Immigrant Status,3135.0,137000.0,18.2,2805.0,142400.0,17.2,325.0,90000.0,27.0,9.8,Edmonton,Gibbons
+    Gibbons (4811064) T 00010 ( 11.9%),Non-immigrants,2980.0,137000.0,18.0,2655.0,142800.0,16.9,325.0,90000.0,27.0,10.100000000000001,Edmonton,Gibbons
+    Gibbons (4811064) T 00010 ( 11.9%),Immigrant,150.0,134000.0,22.6,150.0,134000.0,22.6,0.0,,,,Edmonton,Gibbons
+    Redwater (4811065) T 00020 ( 23.4%),Total Immigrant Status,2030.0,125500.0,18.5,1400.0,139600.0,16.6,630.0,94400.0,22.8,6.199999999999999,Edmonton,Redwater
+    Redwater (4811065) T 00020 ( 23.4%),Non-immigrants,1950.0,127100.0,18.4,1345.0,141600.0,16.6,605.0,94800.0,22.5,5.899999999999999,Edmonton,Redwater
+    Redwater (4811065) T 00020 ( 23.4%),Immigrant,75.0,84000.0,20.8,55.0,88000.0,16.8,0.0,,,,Edmonton,Redwater
+    Bon Accord (4811066) T 00000 (  3.8%),Total Immigrant Status,1510.0,117000.0,22.3,1310.0,123500.0,20.6,205.0,74500.0,33.2,12.600000000000001,Edmonton,Bon Accord
+    Bon Accord (4811066) T 00000 (  3.8%),Non-immigrants,1390.0,117800.0,21.8,1230.0,122800.0,20.7,155.0,78000.0,30.8,10.100000000000001,Edmonton,Bon Accord
+    Bon Accord (4811066) T 00000 (  3.8%),Immigrant,120.0,108000.0,27.2,75.0,136000.0,18.4,0.0,,,,Edmonton,Bon Accord
+    Morinville (4811068) T 00000 (  5.9%),Total Immigrant Status,10020.0,133400.0,19.7,8540.0,140400.0,18.5,1480.0,93000.0,26.3,7.800000000000001,Edmonton,Morinville
+    Morinville (4811068) T 00000 (  5.9%),Non-immigrants,9385.0,134400.0,19.4,8100.0,141200.0,18.2,1285.0,91500.0,27.1,8.900000000000002,Edmonton,Morinville
+    Morinville (4811068) T 00000 (  5.9%),Immigrant,635.0,116800.0,23.0,435.0,122800.0,24.0,195.0,103000.0,20.8,-3.1999999999999993,Edmonton,Morinville
+    Legal (4811069) T 00000 (  1.7%),Total Immigrant Status,1105.0,119400.0,19.0,920.0,127200.0,18.3,190.0,81000.0,22.4,4.099999999999998,Edmonton,Legal
+    Legal (4811069) T 00000 (  1.7%),Non-immigrants,1060.0,119200.0,19.2,875.0,127000.0,18.5,185.0,82000.0,22.7,4.199999999999999,Edmonton,Legal
+    Legal (4811069) T 00000 (  1.7%),Immigrant,50.0,120000.0,14.0,45.0,128000.0,14.4,0.0,,,,Edmonton,Legal
+    Enoch Cree Nation (4811804) IRI 02030 ( 30.7%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Edmonton,Enoch Cree Nation
+    Enoch Cree Nation (4811804) IRI 02030 ( 30.7%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Edmonton,Enoch Cree Nation
+    Enoch Cree Nation (4811804) IRI 02030 ( 30.7%),Immigrant,0.0,,,0.0,,,0.0,,,,Edmonton,Enoch Cree Nation
+    Alexander 134 (4811805) IRI 03030 ( 36.0%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Edmonton,Alexander 134
+    Alexander 134 (4811805) IRI 03030 ( 36.0%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Edmonton,Alexander 134
+    Alexander 134 (4811805) IRI 03030 ( 36.0%),Immigrant,0.0,,,0.0,,,0.0,,,,Edmonton,Alexander 134
+    Wabamun 133A (4811806) IRI 03030 ( 39.6%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Edmonton,Wabamun 133A
+    Wabamun 133A (4811806) IRI 03030 ( 39.6%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Edmonton,Wabamun 133A
+    Wabamun 133A (4811806) IRI 03030 ( 39.6%),Immigrant,0.0,,,0.0,,,0.0,,,,Edmonton,Wabamun 133A
+    Wabamun 133B (4811807) IRI 09999 ( 40.0%),Total Immigrant Status,,,,,,,,,,,Edmonton,Wabamun 133B
+    Wabamun 133B (4811807) IRI 09999 ( 40.0%),Non-immigrants,,,,,,,,,,,Edmonton,Wabamun 133B
+    Wabamun 133B (4811807) IRI 09999 ( 40.0%),Immigrant,,,,,,,,,,,Edmonton,Wabamun 133B
+"  Vancouver (CMA), B.C. 20000 (  3.9%)",Total Immigrant Status,2487665.0,148000.0,22.4,1696895.0,167400.0,20.7,790770.0,106300.0,26.0,5.300000000000001,Vancouver,Vancouver
+"  Vancouver (CMA), B.C. 20000 (  3.9%)",Non-immigrants,1071675.0,159800.0,20.6,721210.0,185000.0,17.8,350465.0,107800.0,26.2,8.399999999999999,Vancouver,Vancouver
+"  Vancouver (CMA), B.C. 20000 (  3.9%)",Immigrant,1415995.0,139000.0,23.8,975690.0,154400.0,22.8,440305.0,105200.0,25.9,3.099999999999998,Vancouver,Vancouver
+    Langley (5915001) DM 00000 (  3.1%),Total Immigrant Status,126220.0,155400.0,20.6,106520.0,163400.0,19.7,19705.0,112600.0,25.4,5.699999999999999,Vancouver,Langley
+    Langley (5915001) DM 00000 (  3.1%),Non-immigrants,87405.0,160000.0,19.3,73580.0,169400.0,18.3,13825.0,109300.0,24.5,6.199999999999999,Vancouver,Langley
+    Langley (5915001) DM 00000 (  3.1%),Immigrant,38820.0,145000.0,23.5,32935.0,149400.0,22.8,5880.0,120400.0,27.5,4.699999999999999,Vancouver,Langley
+    Langley (5915002) CY 00000 (  4.7%),Total Immigrant Status,27635.0,110900.0,22.4,18465.0,125600.0,20.7,9175.0,81500.0,25.7,5.0,Vancouver,Langley
+    Langley (5915002) CY 00000 (  4.7%),Non-immigrants,19435.0,113200.0,21.7,13250.0,129600.0,19.8,6190.0,78100.0,25.7,5.899999999999999,Vancouver,Langley
+    Langley (5915002) CY 00000 (  4.7%),Immigrant,8200.0,105500.0,23.9,5215.0,115300.0,22.9,2980.0,88400.0,25.5,2.6000000000000014,Vancouver,Langley
+    Surrey (5915004) CY 00000 (  4.1%),Total Immigrant Status,549780.0,143200.0,22.1,403320.0,157800.0,21.6,146460.0,102900.0,23.3,1.6999999999999993,Vancouver,Surrey
+    Surrey (5915004) CY 00000 (  4.1%),Non-immigrants,183435.0,145800.0,19.7,133880.0,162200.0,17.7,49550.0,101000.0,25.1,7.400000000000002,Vancouver,Surrey
+    Surrey (5915004) CY 00000 (  4.1%),Immigrant,366350.0,142000.0,23.3,269440.0,155600.0,23.6,96905.0,103800.0,22.4,-1.2000000000000028,Vancouver,Surrey
+    White Rock (5915007) CY 00000 (  4.5%),Total Immigrant Status,19825.0,140600.0,24.0,13440.0,159400.0,21.2,6385.0,101100.0,29.8,8.600000000000001,Vancouver,White Rock
+    White Rock (5915007) CY 00000 (  4.5%),Non-immigrants,13055.0,141600.0,22.6,8465.0,163400.0,19.3,4590.0,101500.0,28.8,9.5,Vancouver,White Rock
+    White Rock (5915007) CY 00000 (  4.5%),Immigrant,6770.0,139000.0,26.5,4975.0,153000.0,24.4,1785.0,100100.0,32.5,8.100000000000001,Vancouver,White Rock
+    Delta (5915011) CY 00000 (  2.7%),Total Immigrant Status,104965.0,152800.0,19.9,82305.0,164000.0,18.6,22660.0,112100.0,24.4,5.799999999999997,Vancouver,Delta
+    Delta (5915011) CY 00000 (  2.7%),Non-immigrants,54465.0,158000.0,18.5,42435.0,170800.0,16.5,12030.0,113000.0,25.8,9.3,Vancouver,Delta
+    Delta (5915011) CY 00000 (  2.7%),Immigrant,50505.0,147200.0,21.4,39870.0,156800.0,21.0,10635.0,111100.0,22.9,1.8999999999999986,Vancouver,Delta
+    Richmond (5915015) CY 00000 (  2.6%),Total Immigrant Status,194585.0,130200.0,23.5,144150.0,140200.0,22.0,50435.0,101600.0,27.7,5.699999999999999,Vancouver,Richmond
+    Richmond (5915015) CY 00000 (  2.6%),Non-immigrants,44130.0,147800.0,19.6,30610.0,164600.0,16.8,13525.0,110000.0,25.8,9.0,Vancouver,Richmond
+    Richmond (5915015) CY 00000 (  2.6%),Immigrant,150450.0,125000.0,24.6,113535.0,133600.0,23.3,36915.0,98500.0,28.4,5.099999999999998,Vancouver,Richmond
+    Metro Vancouver A (5915020) RDA 00000 (  8.5%),Total Immigrant Status,13285.0,145600.0,30.2,6175.0,176800.0,27.2,7110.0,118600.0,32.9,5.699999999999999,Vancouver,Metro Vancouver A
+    Metro Vancouver A (5915020) RDA 00000 (  8.5%),Non-immigrants,3880.0,154400.0,26.4,1625.0,200800.0,17.5,2255.0,120900.0,32.9,15.399999999999999,Vancouver,Metro Vancouver A
+    Metro Vancouver A (5915020) RDA 00000 (  8.5%),Immigrant,9410.0,142000.0,31.8,4550.0,168400.0,30.6,4860.0,117500.0,32.9,2.299999999999997,Vancouver,Metro Vancouver A
+    Vancouver (5915022) CY 00000 (  4.8%),Total Immigrant Status,615670.0,150200.0,23.2,323825.0,186800.0,20.2,291845.0,109500.0,26.5,6.300000000000001,Vancouver,Vancouver
+    Vancouver (5915022) CY 00000 (  4.8%),Non-immigrants,266835.0,162600.0,22.9,124805.0,222200.0,18.4,142030.0,110400.0,26.8,8.400000000000002,Vancouver,Vancouver
+    Vancouver (5915022) CY 00000 (  4.8%),Immigrant,348835.0,140600.0,23.4,199020.0,164600.0,21.3,149815.0,108500.0,26.2,4.899999999999999,Vancouver,Vancouver
+    Burnaby (5915025) CY 00000 (  3.5%),Total Immigrant Status,234090.0,135200.0,22.2,152890.0,153400.0,20.3,81200.0,101000.0,25.8,5.5,Vancouver,Burnaby
+    Burnaby (5915025) CY 00000 (  3.5%),Non-immigrants,76200.0,149800.0,20.0,48665.0,177000.0,16.8,27535.0,101700.0,25.7,8.899999999999999,Vancouver,Burnaby
+    Burnaby (5915025) CY 00000 (  3.5%),Immigrant,157885.0,128200.0,23.3,104225.0,142400.0,22.0,53670.0,100600.0,25.9,3.8999999999999986,Vancouver,Burnaby
+    New Westminster (5915029) CY 00000 (  3.5%),Total Immigrant Status,76145.0,126300.0,23.0,46495.0,150200.0,21.2,29655.0,88800.0,25.9,4.699999999999999,Vancouver,New Westminster
+    New Westminster (5915029) CY 00000 (  3.5%),Non-immigrants,38185.0,129400.0,21.9,23475.0,156200.0,19.2,14715.0,86700.0,26.2,7.0,Vancouver,New Westminster
+    New Westminster (5915029) CY 00000 (  3.5%),Immigrant,37960.0,123100.0,24.2,23020.0,144000.0,23.2,14940.0,90900.0,25.6,2.400000000000002,Vancouver,New Westminster
+    Coquitlam (5915034) CY 00000 (  3.4%),Total Immigrant Status,141395.0,140800.0,22.5,104235.0,155800.0,20.7,37160.0,98500.0,27.4,6.699999999999999,Vancouver,Coquitlam
+    Coquitlam (5915034) CY 00000 (  3.4%),Non-immigrants,57030.0,156200.0,18.8,41940.0,174200.0,16.5,15085.0,106500.0,25.3,8.8,Vancouver,Coquitlam
+    Coquitlam (5915034) CY 00000 (  3.4%),Immigrant,84370.0,130200.0,25.0,62295.0,143400.0,23.6,22070.0,93100.0,28.8,5.199999999999999,Vancouver,Coquitlam
+    Belcarra (5915036) VL 00000 (  4.2%),Total Immigrant Status,630.0,274000.0,18.6,570.0,292000.0,16.5,60.0,108000.0,39.5,23.0,Vancouver,Belcarra
+    Belcarra (5915036) VL 00000 (  4.2%),Non-immigrants,465.0,298000.0,16.7,430.0,311000.0,15.6,40.0,140000.0,31.0,15.4,Vancouver,Belcarra
+    Belcarra (5915036) VL 00000 (  4.2%),Immigrant,165.0,208000.0,24.1,140.0,232000.0,19.0,0.0,,,,Vancouver,Belcarra
+    Anmore (5915038) VL 00000 (  2.8%),Total Immigrant Status,2255.0,262000.0,19.9,2105.0,266000.0,20.2,155.0,204000.0,16.8,-3.3999999999999986,Vancouver,Anmore
+    Anmore (5915038) VL 00000 (  2.8%),Non-immigrants,1485.0,255600.0,19.6,1395.0,266400.0,19.5,85.0,82000.0,21.6,2.1000000000000014,Vancouver,Anmore
+    Anmore (5915038) VL 00000 (  2.8%),Immigrant,770.0,274000.0,20.5,710.0,265500.0,21.4,65.0,370000.0,10.6,-10.799999999999999,Vancouver,Anmore
+    Port Coquitlam (5915039) CY 00000 (  2.8%),Total Immigrant Status,59215.0,138800.0,20.1,47495.0,149200.0,18.7,11715.0,96600.0,25.7,7.0,Vancouver,Port Coquitlam
+    Port Coquitlam (5915039) CY 00000 (  2.8%),Non-immigrants,32280.0,142600.0,18.7,25755.0,154800.0,17.0,6530.0,95300.0,25.6,8.600000000000001,Vancouver,Port Coquitlam
+    Port Coquitlam (5915039) CY 00000 (  2.8%),Immigrant,26930.0,134200.0,21.8,21745.0,142800.0,20.8,5185.0,98200.0,25.9,5.099999999999998,Vancouver,Port Coquitlam
+    Port Moody (5915043) CY 00000 (  2.6%),Total Immigrant Status,32665.0,167600.0,20.4,25190.0,179600.0,19.3,7475.0,127500.0,24.1,4.800000000000001,Vancouver,Port Moody
+    Port Moody (5915043) CY 00000 (  2.6%),Non-immigrants,19310.0,182400.0,18.4,15090.0,193400.0,17.1,4220.0,142400.0,23.3,6.199999999999999,Vancouver,Port Moody
+    Port Moody (5915043) CY 00000 (  2.6%),Immigrant,13355.0,146400.0,23.3,10100.0,158600.0,22.6,3250.0,108100.0,25.3,2.6999999999999993,Vancouver,Port Moody
+    North Vancouver (5915046) DM 00000 (  2.9%),Total Immigrant Status,84165.0,209800.0,21.5,67020.0,229800.0,19.9,17140.0,132400.0,27.5,7.600000000000001,Vancouver,North Vancouver
+    North Vancouver (5915046) DM 00000 (  2.9%),Non-immigrants,49520.0,235800.0,18.7,41050.0,255800.0,17.3,8470.0,138400.0,25.6,8.3,Vancouver,North Vancouver
+    North Vancouver (5915046) DM 00000 (  2.9%),Immigrant,34650.0,173000.0,25.3,25975.0,188400.0,24.0,8670.0,126600.0,29.3,5.300000000000001,Vancouver,North Vancouver
+    North Vancouver (5915051) CY 00000 (  4.2%),Total Immigrant Status,55065.0,142000.0,24.4,31715.0,171000.0,21.3,23350.0,102600.0,28.6,7.300000000000001,Vancouver,North Vancouver
+    North Vancouver (5915051) CY 00000 (  4.2%),Non-immigrants,28880.0,157800.0,22.6,17695.0,190600.0,19.5,11185.0,105900.0,27.7,8.2,Vancouver,North Vancouver
+    North Vancouver (5915051) CY 00000 (  4.2%),Immigrant,26185.0,124500.0,26.3,14020.0,146200.0,23.5,12160.0,99500.0,29.5,6.0,Vancouver,North Vancouver
+    West Vancouver (5915055) DM 00000 (  3.5%),Total Immigrant Status,38010.0,281600.0,25.8,27645.0,320000.0,22.8,10360.0,179400.0,34.0,11.2,Vancouver,West Vancouver
+    West Vancouver (5915055) DM 00000 (  3.5%),Non-immigrants,17435.0,325200.0,20.2,13155.0,365600.0,16.5,4280.0,200800.0,31.6,15.100000000000001,Vancouver,West Vancouver
+    West Vancouver (5915055) DM 00000 (  3.5%),Immigrant,20570.0,245000.0,30.7,14485.0,278800.0,28.5,6080.0,164400.0,35.7,7.200000000000003,Vancouver,West Vancouver
+    Bowen Island (5915062) IM 00000 (  8.6%),Total Immigrant Status,4030.0,188400.0,20.5,3530.0,201600.0,20.0,505.0,96000.0,24.4,4.399999999999999,Vancouver,Bowen Island
+    Bowen Island (5915062) IM 00000 (  8.6%),Non-immigrants,2975.0,196400.0,20.6,2650.0,209200.0,19.8,320.0,91600.0,26.9,7.099999999999998,Vancouver,Bowen Island
+    Bowen Island (5915062) IM 00000 (  8.6%),Immigrant,1065.0,166400.0,20.3,880.0,179200.0,20.4,180.0,104000.0,19.8,-0.5999999999999979,Vancouver,Bowen Island
+    Lions Bay (5915065) VL 00000 (  8.9%),Total Immigrant Status,1350.0,213400.0,21.4,1195.0,219200.0,20.8,150.0,168000.0,26.2,5.399999999999999,Vancouver,Lions Bay
+    Lions Bay (5915065) VL 00000 (  8.9%),Non-immigrants,780.0,218400.0,21.1,690.0,222800.0,21.3,95.0,188000.0,19.6,-1.6999999999999993,Vancouver,Lions Bay
+    Lions Bay (5915065) VL 00000 (  8.9%),Immigrant,570.0,206000.0,22.0,510.0,215000.0,20.3,60.0,136000.0,36.0,15.7,Vancouver,Lions Bay
+    Pitt Meadows (5915070) CY 00000 (  2.4%),Total Immigrant Status,18520.0,141800.0,20.0,15220.0,152200.0,18.8,3305.0,94000.0,25.2,6.399999999999999,Vancouver,Pitt Meadows
+    Pitt Meadows (5915070) CY 00000 (  2.4%),Non-immigrants,12315.0,143200.0,19.4,10060.0,155200.0,17.7,2255.0,89600.0,26.9,9.2,Vancouver,Pitt Meadows
+    Pitt Meadows (5915070) CY 00000 (  2.4%),Immigrant,6205.0,139400.0,21.1,5160.0,146600.0,21.1,1045.0,103400.0,21.4,0.29999999999999716,Vancouver,Pitt Meadows
+    Maple Ridge (5915075) CY 00000 (  2.7%),Total Immigrant Status,88150.0,144200.0,21.2,73385.0,153600.0,20.2,14765.0,97500.0,26.1,5.900000000000002,Vancouver,Maple Ridge
+    Maple Ridge (5915075) CY 00000 (  2.7%),Non-immigrants,62175.0,145200.0,20.3,50520.0,156400.0,19.0,11655.0,96600.0,26.1,7.100000000000001,Vancouver,Maple Ridge
+    Maple Ridge (5915075) CY 00000 (  2.7%),Immigrant,25975.0,142000.0,23.4,22865.0,147600.0,23.0,3110.0,100700.0,26.3,3.3000000000000007,Vancouver,Maple Ridge
+    Semiahmoo (5915801) IRI 01919 ( 12.9%),Total Immigrant Status,,,,,,,,,,,Vancouver,Semiahmoo
+    Semiahmoo (5915801) IRI 01919 ( 12.9%),Non-immigrants,,,,,,,,,,,Vancouver,Semiahmoo
+    Semiahmoo (5915801) IRI 01919 ( 12.9%),Immigrant,,,,,,,,,,,Vancouver,Semiahmoo
+    Tsawwassen (5915802) TWL 00000 (  3.6%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Tsawwassen
+    Tsawwassen (5915802) TWL 00000 (  3.6%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Tsawwassen
+    Tsawwassen (5915802) TWL 00000 (  3.6%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Tsawwassen
+    Musqueam 2 (5915803) IRI 01010 ( 14.8%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Musqueam 2
+    Musqueam 2 (5915803) IRI 01010 ( 14.8%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Musqueam 2
+    Musqueam 2 (5915803) IRI 01010 ( 14.8%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Musqueam 2
+    Coquitlam 2 (5915804) IRI 09999 (  0.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,Coquitlam 2
+    Coquitlam 2 (5915804) IRI 09999 (  0.0%),Non-immigrants,,,,,,,,,,,Vancouver,Coquitlam 2
+    Coquitlam 2 (5915804) IRI 09999 (  0.0%),Immigrant,,,,,,,,,,,Vancouver,Coquitlam 2
+    Coquitlam 1 (5915805) IRI 02929 ( 29.2%),Total Immigrant Status,,,,,,,,,,,Vancouver,Coquitlam 1
+    Coquitlam 1 (5915805) IRI 02929 ( 29.2%),Non-immigrants,,,,,,,,,,,Vancouver,Coquitlam 1
+    Coquitlam 1 (5915805) IRI 02929 ( 29.2%),Immigrant,,,,,,,,,,,Vancouver,Coquitlam 1
+    Burrard Inlet 3 (5915806) IRI 00000 (  2.2%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Burrard Inlet 3
+    Burrard Inlet 3 (5915806) IRI 00000 (  2.2%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Burrard Inlet 3
+    Burrard Inlet 3 (5915806) IRI 00000 (  2.2%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Burrard Inlet 3
+    Mission 1 (5915807) IRI 02020 ( 28.5%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Mission 1
+    Mission 1 (5915807) IRI 02020 ( 28.5%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Mission 1
+    Mission 1 (5915807) IRI 02020 ( 28.5%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Mission 1
+    Capilano 5 (5915808) IRI 01010 ( 13.7%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Capilano 5
+    Capilano 5 (5915808) IRI 01010 ( 13.7%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Capilano 5
+    Capilano 5 (5915808) IRI 01010 ( 13.7%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Capilano 5
+    Barnston Island 3 (5915809) IRI 19999 (  0.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,Barnston Island 3
+    Barnston Island 3 (5915809) IRI 19999 (  0.0%),Non-immigrants,,,,,,,,,,,Vancouver,Barnston Island 3
+    Barnston Island 3 (5915809) IRI 19999 (  0.0%),Immigrant,,,,,,,,,,,Vancouver,Barnston Island 3
+    Musqueam 4 (5915810) IRI 09999 ( 25.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,Musqueam 4
+    Musqueam 4 (5915810) IRI 09999 ( 25.0%),Non-immigrants,,,,,,,,,,,Vancouver,Musqueam 4
+    Musqueam 4 (5915810) IRI 09999 ( 25.0%),Immigrant,,,,,,,,,,,Vancouver,Musqueam 4
+    Seymour Creek 2 (5915811) IRI 03939 ( 30.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,Seymour Creek 2
+    Seymour Creek 2 (5915811) IRI 03939 ( 30.0%),Non-immigrants,,,,,,,,,,,Vancouver,Seymour Creek 2
+    Seymour Creek 2 (5915811) IRI 03939 ( 30.0%),Immigrant,,,,,,,,,,,Vancouver,Seymour Creek 2
+    Katzie 2 (5915813) IRI 09999 ( 21.4%),Total Immigrant Status,,,,,,,,,,,Vancouver,Katzie 2
+    Katzie 2 (5915813) IRI 09999 ( 21.4%),Non-immigrants,,,,,,,,,,,Vancouver,Katzie 2
+    Katzie 2 (5915813) IRI 09999 ( 21.4%),Immigrant,,,,,,,,,,,Vancouver,Katzie 2
+    McMillan Island 6 (5915816) IRI 05959 ( 81.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,McMillan Island 6
+    McMillan Island 6 (5915816) IRI 05959 ( 81.0%),Non-immigrants,,,,,,,,,,,Vancouver,McMillan Island 6
+    McMillan Island 6 (5915816) IRI 05959 ( 81.0%),Immigrant,,,,,,,,,,,Vancouver,McMillan Island 6
+    Matsqui 4 (5915825) IRI 01010 ( 15.3%),Total Immigrant Status,0.0,,,0.0,,,0.0,,,,Vancouver,Matsqui 4
+    Matsqui 4 (5915825) IRI 01010 ( 15.3%),Non-immigrants,0.0,,,0.0,,,0.0,,,,Vancouver,Matsqui 4
+    Matsqui 4 (5915825) IRI 01010 ( 15.3%),Immigrant,0.0,,,0.0,,,0.0,,,,Vancouver,Matsqui 4
+    Katzie 1 (5915830) IRI 05959 ( 60.3%),Total Immigrant Status,,,,,,,,,,,Vancouver,Katzie 1
+    Katzie 1 (5915830) IRI 05959 ( 60.3%),Non-immigrants,,,,,,,,,,,Vancouver,Katzie 1
+    Katzie 1 (5915830) IRI 05959 ( 60.3%),Immigrant,,,,,,,,,,,Vancouver,Katzie 1
+    Whonnock 1 (5915840) IRI 09999 (100.0%),Total Immigrant Status,,,,,,,,,,,Vancouver,Whonnock 1
+    Whonnock 1 (5915840) IRI 09999 (100.0%),Non-immigrants,,,,,,,,,,,Vancouver,Whonnock 1
+    Whonnock 1 (5915840) IRI 09999 (100.0%),Immigrant,,,,,,,,,,,Vancouver,Whonnock 1

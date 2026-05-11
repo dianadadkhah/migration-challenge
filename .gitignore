@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.egg-info/
+
+# Large raw files (keep clean data only)
+data/Cleaned_Mtl_Data.csv
+data/Mtl_Tor_Edm_Van_CSDs_Natasha.csv

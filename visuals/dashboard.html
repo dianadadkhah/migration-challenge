@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immigrant Housing Stress Dashboard — Migration Data Challenge 2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+  :root {
+    --bg: #0e0f13; --surface: #16181f; --surface2: #1e2028;
+    --border: rgba(255,255,255,0.07); --text: #e8e6e0; --muted: #7a7870;
+    --imm: #e8834a; --non: #5b9bd5; --red: #e05555; --green: #4dab7e;
+    --mtl: #8e75c9; --tor: #e8834a; --edm: #4dab7e; --van: #5b9bd5;
+    --serif: 'DM Serif Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 14px; line-height: 1.6; }
+
+  /* HEADER */
+  header { padding: 2.5rem 3rem 2rem; border-bottom: 1px solid var(--border); }
+  .header-tag { font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--imm); margin-bottom: .5rem; }
+  header h1 { font-family: var(--serif); font-size: 2.2rem; font-weight: 400; line-height: 1.15; margin-bottom: .5rem; }
+  header h1 em { font-style: italic; color: var(--imm); }
+  header p { font-size: 13px; color: var(--muted); max-width: 700px; }
+
+  /* KPI STRIP */
+  .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid var(--border); }
+  .kpi { padding: 1.25rem 2rem; border-right: 1px solid var(--border); }
+  .kpi:last-child { border-right: none; }
+  .kpi-label { font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .kpi-val { font-family: var(--serif); font-size: 2rem; line-height: 1; margin-bottom: 2px; }
+  .kpi-note { font-size: 11px; color: var(--muted); }
+  .kpi-note b { color: var(--imm); font-weight: 500; }
+
+  /* LAYOUT */
+  .main { display: grid; grid-template-columns: 340px 1fr; min-height: calc(100vh - 280px); }
+  .sidebar { border-right: 1px solid var(--border); padding: 1.5rem; overflow-y: auto; }
+  .content { padding: 1.5rem 2rem; }
+
+  /* SEARCH */
+  .search-title { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: .75rem; }
+  .search-wrap { position: relative; margin-bottom: 1rem; }
+  .search-wrap input {
+    width: 100%; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; padding: .6rem 1rem; color: var(--text);
+    font-family: var(--sans); font-size: 13px; outline: none;
+  }
+  .search-wrap input:focus { border-color: var(--imm); }
+  .search-wrap input::placeholder { color: var(--muted); }
+
+  /* NEIGHBOURHOOD LIST */
+  .nb-list { display: flex; flex-direction: column; gap: 3px; max-height: 520px; overflow-y: auto; }
+  .nb-item {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: .5rem .75rem; border-radius: 6px; cursor: pointer;
+    border: 1px solid transparent; transition: all .15s;
+  }
+  .nb-item:hover { background: var(--surface2); border-color: var(--border); }
+  .nb-item.active { background: var(--surface2); border-color: var(--imm); }
+  .nb-name { font-size: 12px; color: var(--text); line-height: 1.3; }
+  .nb-city { font-size: 10px; color: var(--muted); }
+  .nb-score {
+    font-size: 13px; font-weight: 600; min-width: 36px;
+    text-align: right; border-radius: 4px; padding: 2px 6px;
+  }
+
+  /* DETAIL PANEL */
+  .detail-header { margin-bottom: 1.5rem; }
+  .detail-name { font-family: var(--serif); font-size: 1.8rem; font-weight: 400; line-height: 1.1; margin-bottom: 4px; }
+  .detail-meta { font-size: 12px; color: var(--muted); display: flex; gap: 1rem; }
+  .city-badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 20px; }
+
+  /* SCORE CARD */
+  .score-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem;
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;
+  }
+  .score-main { grid-column: 1 / -1; display: flex; align-items: center; gap: 1.5rem; margin-bottom: .75rem; padding-bottom: .75rem; border-bottom: 1px solid var(--border); }
+  .score-big { font-family: var(--serif); font-size: 3.5rem; line-height: 1; }
+  .score-label { font-size: 12px; color: var(--muted); }
+  .score-bar-wrap { height: 8px; background: var(--surface2); border-radius: 4px; margin-top: 6px; overflow: hidden; width: 200px; }
+  .score-bar { height: 100%; border-radius: 4px; transition: width .6s ease; }
+
+  .metric { }
+  .metric-label { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+  .metric-val { font-size: 1.3rem; font-weight: 500; }
+
+  /* COMPONENTS */
+  .components { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; }
+  .comp-title { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+  .comp-row { display: flex; align-items: center; gap: .75rem; margin-bottom: .6rem; }
+  .comp-name { font-size: 12px; color: var(--muted); width: 160px; flex-shrink: 0; }
+  .comp-track { flex: 1; height: 18px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+  .comp-fill { height: 100%; border-radius: 3px; display: flex; align-items: center; padding: 0 6px; transition: width .6s ease; }
+  .comp-val { font-size: 10px; font-weight: 600; color: #fff; white-space: nowrap; }
+  .comp-weight { font-size: 10px; color: var(--muted); width: 40px; text-align: right; }
+
+  /* CLUSTER */
+  .cluster-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; }
+  .cluster-name { font-size: 1rem; font-weight: 500; margin-bottom: .35rem; }
+  .cluster-desc { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: .75rem; }
+  .cluster-policy { background: var(--surface2); border-left: 3px solid var(--imm); padding: .6rem .875rem; border-radius: 0 6px 6px 0; font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .cluster-policy strong { color: var(--text); font-weight: 500; }
+
+  /* CHARTS GRID */
+  .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+  .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; }
+  .chart-card-full { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+  .chart-title { font-size: 12px; font-weight: 500; color: var(--text); margin-bottom: .25rem; }
+  .chart-sub { font-size: 11px; color: var(--muted); margin-bottom: 1rem; }
+
+  /* FINDING CALLOUT */
+  .finding { border-left: 3px solid var(--imm); background: var(--surface2); padding: .75rem 1rem; border-radius: 0 6px 6px 0; font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1rem; }
+  .finding strong { color: var(--text); font-weight: 500; }
+
+  /* FOOTER */
+  footer { padding: 1rem 2rem; border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); display: flex; justify-content: space-between; }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-tag">Migration Data Challenge 2026 — Interactive Policy Tool</div>
+  <h1>The <em>Immigrant Housing Stress</em> Dashboard</h1>
+  <p>Explore housing burden by neighbourhood across Montréal, Toronto, Edmonton, and Vancouver. Built on CMHC census subdivision data with machine learning analysis.</p>
+</header>
+
+<div class="kpi-strip">
+  <div class="kpi">
+    <div class="kpi-label">Overall invisible tax</div>
+    <div class="kpi-val" style="color:var(--imm)">2.92<span style="font-size:1rem;font-family:var(--sans);color:var(--muted)">pp</span></div>
+    <div class="kpi-note">After controlling for income & city</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Toronto penalty</div>
+    <div class="kpi-val" style="color:var(--red)">5.37<span style="font-size:1rem;font-family:var(--sans);color:var(--muted)">pp</span></div>
+    <div class="kpi-note"><b>p&lt;0.01</b> statistically significant</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Neighbourhoods above 30%</div>
+    <div class="kpi-val" style="color:var(--red)">12</div>
+    <div class="kpi-note">Immigrant renter STIR ≥ 30%</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Edmonton penalty</div>
+    <div class="kpi-val" style="color:var(--green)">0.85<span style="font-size:1rem;font-family:var(--sans);color:var(--muted)">pp</span></div>
+    <div class="kpi-note">Not statistically significant</div>
+  </div>
+</div>
+
+<div class="main">
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="search-title">Neighbourhood lookup</div>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search neighbourhood..." oninput="filterList()">
+    </div>
+    <!-- City filter -->
+    <div style="display:flex;gap:6px;margin-bottom:.75rem;flex-wrap:wrap">
+      <button class="city-btn active" onclick="filterCity('all',this)">All</button>
+      <button class="city-btn" onclick="filterCity('Toronto',this)" style="--c:var(--tor)">Toronto</button>
+      <button class="city-btn" onclick="filterCity('Vancouver',this)" style="--c:var(--van)">Vancouver</button>
+      <button class="city-btn" onclick="filterCity('Montreal',this)" style="--c:var(--mtl)">Montréal</button>
+      <button class="city-btn" onclick="filterCity('Edmonton',this)" style="--c:var(--edm)">Edmonton</button>
+    </div>
+    <style>
+      .city-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--muted); font-size: 11px; padding: 3px 10px; border-radius: 20px; cursor: pointer; font-family: var(--sans); transition: all .15s; }
+      .city-btn:hover, .city-btn.active { background: var(--surface); border-color: var(--c, var(--imm)); color: var(--text); }
+    </style>
+    <div class="nb-list" id="nb-list"></div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content" id="detail">
+    <!-- Filled by JS -->
+  </div>
+</div>
+
+<footer>
+  <span>Immigrant Housing Stress Index (IHSI) — Migration Data Challenge 2026</span>
+  <span>Data: CMHC Census Subdivision Survey + CMHC Rental Market Report 2025</span>
+</footer>
+
+<script>
+// === DATA ===
+const NEIGHBOURHOODS = [
+  {name:"West Vancouver",city:"Vancouver",ihsi:89,renter_stir:35.7,owner_stir:28.5,income:245000,gap:7.2,cluster:0,c1:100,c2:72,c3:85},
+  {name:"Metro Vancouver A",city:"Vancouver",ihsi:72,renter_stir:32.9,owner_stir:30.6,income:142000,gap:2.3,cluster:0,c1:88,c2:45,c3:92},
+  {name:"Richmond Hill",city:"Toronto",ihsi:65,renter_stir:33.1,owner_stir:25.7,income:153400,gap:7.4,cluster:0,c1:85,c2:68,c3:78},
+  {name:"Westmount",city:"Montreal",ihsi:64,renter_stir:29.0,owner_stir:18.0,income:297200,gap:11.0,cluster:3,c1:55,c2:88,c3:60},
+  {name:"Aurora",city:"Toronto",ihsi:62,renter_stir:31.5,owner_stir:26.7,income:154000,gap:4.8,cluster:0,c1:80,c2:66,c3:74},
+  {name:"Hudson",city:"Montreal",ihsi:59,renter_stir:34.5,owner_stir:17.8,income:158000,gap:16.7,cluster:2,c1:92,c2:42,c3:55},
+  {name:"Lions Bay",city:"Vancouver",ihsi:59,renter_stir:36.0,owner_stir:20.3,income:206000,gap:15.7,cluster:2,c1:95,c2:55,c3:50},
+  {name:"East Gwillimbury",city:"Toronto",ihsi:58,renter_stir:31.0,owner_stir:27.6,income:141800,gap:3.4,cluster:0,c1:78,c2:58,c3:72},
+  {name:"White Rock",city:"Vancouver",ihsi:55,renter_stir:32.5,owner_stir:24.4,income:139000,gap:8.1,cluster:0,c1:82,c2:44,c3:65},
+  {name:"North Vancouver DM",city:"Vancouver",ihsi:55,renter_stir:29.3,owner_stir:24.0,income:173000,gap:5.3,cluster:0,c1:60,c2:60,c3:68},
+  {name:"Oakville",city:"Toronto",ihsi:53,renter_stir:30.8,owner_stir:22.9,income:187000,gap:7.9,cluster:0,c1:75,c2:70,c3:55},
+  {name:"Vaughan",city:"Toronto",ihsi:52,renter_stir:31.8,owner_stir:22.6,income:161600,gap:9.2,cluster:0,c1:78,c2:55,c3:60},
+  {name:"Markham",city:"Toronto",ihsi:50,renter_stir:30.7,owner_stir:23.9,income:146200,gap:6.8,cluster:0,c1:74,c2:52,c3:58},
+  {name:"Newmarket",city:"Toronto",ihsi:50,renter_stir:29.5,owner_stir:26.8,income:138400,gap:2.7,cluster:0,c1:68,c2:50,c3:62},
+  {name:"Sainte-Julie",city:"Montreal",ihsi:46,renter_stir:30.7,owner_stir:17.6,income:135400,gap:13.1,cluster:2,c1:74,c2:38,c3:42},
+  {name:"Charlemagne",city:"Montreal",ihsi:46,renter_stir:29.9,owner_stir:18.6,income:91600,gap:11.3,cluster:2,c1:70,c2:22,c3:58},
+  {name:"Milton",city:"Toronto",ihsi:48,renter_stir:30.4,owner_stir:24.6,income:151000,gap:5.8,cluster:0,c1:72,c2:55,c3:56},
+  {name:"Brampton",city:"Toronto",ihsi:42,renter_stir:25.9,owner_stir:25.1,income:144000,gap:0.8,cluster:0,c1:45,c2:52,c3:48},
+  {name:"Mississauga",city:"Toronto",ihsi:40,renter_stir:27.1,owner_stir:21.6,income:141600,gap:5.5,cluster:0,c1:52,c2:50,c3:44},
+  {name:"Burnaby",city:"Vancouver",ihsi:38,renter_stir:25.9,owner_stir:22.0,income:128200,gap:3.9,cluster:1,c1:42,c2:38,c3:40},
+  {name:"Surrey",city:"Vancouver",ihsi:35,renter_stir:22.4,owner_stir:23.6,income:142000,gap:-1.2,cluster:1,c1:28,c2:45,c3:38},
+  {name:"Coquitlam",city:"Vancouver",ihsi:38,renter_stir:28.8,owner_stir:23.6,income:130200,gap:5.2,cluster:0,c1:58,c2:36,c3:42},
+  {name:"Vancouver City",city:"Vancouver",ihsi:36,renter_stir:26.2,owner_stir:21.3,income:140600,gap:4.9,cluster:1,c1:48,c2:42,c3:32},
+  {name:"Laval",city:"Montreal",ihsi:30,renter_stir:20.4,owner_stir:18.5,income:116200,gap:1.9,cluster:1,c1:18,c2:28,c3:35},
+  {name:"Longueuil",city:"Montreal",ihsi:28,renter_stir:19.9,owner_stir:18.1,income:106400,gap:1.8,cluster:1,c1:16,c2:22,c3:32},
+  {name:"Montréal City",city:"Montreal",ihsi:32,renter_stir:21.0,owner_stir:20.2,income:101600,gap:0.8,cluster:1,c1:22,c2:18,c3:38},
+  {name:"Edmonton City",city:"Edmonton",ihsi:25,renter_stir:23.8,owner_stir:20.7,income:128200,gap:3.1,cluster:1,c1:30,c2:32,c3:22},
+  {name:"Strathcona County",city:"Edmonton",ihsi:18,renter_stir:23.3,owner_stir:17.1,income:171600,gap:6.2,cluster:1,c1:24,c2:55,c3:10},
+  {name:"St. Albert",city:"Edmonton",ihsi:20,renter_stir:23.6,owner_stir:18.5,income:148000,gap:5.1,cluster:1,c1:26,c2:45,c3:12},
+  {name:"Spruce Grove",city:"Edmonton",ihsi:22,renter_stir:28.2,owner_stir:20.3,income:130400,gap:7.9,cluster:1,c1:38,c2:35,c3:18},
+  {name:"Leduc",city:"Edmonton",ihsi:19,renter_stir:20.9,owner_stir:21.4,income:119300,gap:-0.5,cluster:1,c1:20,c2:28,c3:15},
+  {name:"Brossard",city:"Montreal",ihsi:26,renter_stir:22.6,owner_stir:18.5,income:123000,gap:4.1,cluster:1,c1:28,c2:25,c3:28},
+  {name:"Terrebonne",city:"Montreal",ihsi:24,renter_stir:18.0,owner_stir:19.0,income:129600,gap:-1.0,cluster:1,c1:14,c2:30,c3:26},
+  {name:"Blainville",city:"Montreal",ihsi:22,renter_stir:19.4,owner_stir:19.9,income:139800,gap:-0.5,cluster:1,c1:16,c2:42,c3:18},
+];
+
+const CLUSTER_INFO = {
+  0: {
+    name: "Invisible Tax Hotspot",
+    color: "#e8834a",
+    desc: "High-income neighbourhoods where immigrants still pay disproportionately high STIR. Income alone does not explain the burden — structural market barriers are at work. Predominantly Toronto and Vancouver suburbs.",
+    policy: "<strong>Targeted intervention needed:</strong> Rent supplements for immigrant households in years 1–5 post-arrival in these CSDs. Anti-gouging enforcement on turnover units. Priority for CMHC affordable rental programs."
+  },
+  1: {
+    name: "Affordable Majority",
+    color: "#4dab7e",
+    desc: "Neighbourhoods where the housing system works reasonably well for immigrants. Lower burden, small renter-owner gap. Predominantly Montréal and Edmonton. Useful as a policy benchmark.",
+    policy: "<strong>Monitor and maintain:</strong> These markets demonstrate that the immigrant housing penalty is not inevitable. Edmonton's no-rent-control model and higher vacancy rates appear to reduce the penalty significantly."
+  },
+  2: {
+    name: "Renter Trap",
+    color: "#8e75c9",
+    desc: "Dangerous hidden cluster. Average STIR looks acceptable but renter STIR is catastrophic — gap of 7.8pp between renters and owners. Traditional affordability metrics completely miss these neighbourhoods.",
+    policy: "<strong>Renter-specific support urgently needed:</strong> These CSDs appear affordable in aggregate data but immigrant renters are severely burdened. Renter-specific supplements and vacancy controls on turnover units would directly address the mechanism."
+  },
+  3: {
+    name: "Ultra-Wealthy Exception",
+    color: "#5b9bd5",
+    desc: "Very high income neighbourhoods with relatively contained burden. Small sample (4 CSDs). Westmount, Hampstead, Senneville. Not generalizable but shows even wealthy immigrant enclaves face above-average STIR.",
+    policy: "<strong>Low priority for intervention:</strong> Households in this cluster have significant financial capacity to absorb housing costs. Policy resources better directed at Clusters 0 and 2."
+  }
+};
+
+const CITY_COLORS = { Toronto: '#e8834a', Vancouver: '#5b9bd5', Montreal: '#8e75c9', Edmonton: '#4dab7e' };
+const CITY_AVG_IHSI = { Toronto: 39, Vancouver: 35, Montreal: 25, Edmonton: 22 };
+const CITY_PENALTY = { Toronto: 5.37, Vancouver: 3.57, Montreal: 0.85, Edmonton: 0.85 };
+const CITY_PENALTY_SIG = { Toronto: true, Vancouver: true, Montreal: false, Edmonton: false };
+
+let currentCity = 'all';
+let selectedIdx = 0;
+
+function getScoreColor(score) {
+  if (score >= 70) return '#e05555';
+  if (score >= 50) return '#e8834a';
+  if (score >= 30) return '#e8c44a';
+  return '#4dab7e';
+}
+
+function renderList() {
+  const search = document.getElementById('search').value.toLowerCase();
+  const list = document.getElementById('nb-list');
+  list.innerHTML = '';
+  NEIGHBOURHOODS.forEach((nb, i) => {
+    if (currentCity !== 'all' && nb.city !== currentCity) return;
+    if (search && !nb.name.toLowerCase().includes(search) && !nb.city.toLowerCase().includes(search)) return;
+    const el = document.createElement('div');
+    el.className = 'nb-item' + (i === selectedIdx ? ' active' : '');
+    el.onclick = () => { selectedIdx = i; renderList(); renderDetail(nb); };
+    el.innerHTML = `
+      <div>
+        <div class="nb-name">${nb.name}</div>
+        <div class="nb-city">${nb.city}</div>
+      </div>
+      <div class="nb-score" style="background:${getScoreColor(nb.ihsi)}22;color:${getScoreColor(nb.ihsi)}">${nb.ihsi}</div>
+    `;
+    list.appendChild(el);
+  });
+}
+
+function filterList() { renderList(); }
+function filterCity(city, btn) {
+  currentCity = city;
+  document.querySelectorAll('.city-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderList();
+}
+
+function renderDetail(nb) {
+  const cluster = CLUSTER_INFO[nb.cluster];
+  const cityColor = CITY_COLORS[nb.city];
+  const penalty = CITY_PENALTY[nb.city];
+  const sig = CITY_PENALTY_SIG[nb.city];
+  const avgIhsi = CITY_AVG_IHSI[nb.city];
+  const scoreColor = getScoreColor(nb.ihsi);
+
+  document.getElementById('detail').innerHTML = `
+    <div class="detail-header">
+      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem">
+        <span class="city-badge" style="background:${cityColor}22;color:${cityColor}">${nb.city}</span>
+        <span class="city-badge" style="background:${cluster.color}22;color:${cluster.color}">${cluster.name}</span>
+      </div>
+      <div class="detail-name">${nb.name}</div>
+      <div class="detail-meta">
+        <span>Avg household income: <b style="color:var(--text)">$${(nb.income/1000).toFixed(0)}k</b></span>
+        <span>Renter STIR: <b style="color:${nb.renter_stir>=30?'var(--red)':'var(--text)'}"">${nb.renter_stir}%</b></span>
+        <span>Owner STIR: <b style="color:var(--text)">${nb.owner_stir}%</b></span>
+      </div>
+    </div>
+
+    <div class="score-card">
+      <div class="score-main">
+        <div>
+          <div style="font-size:11px;color:var(--muted);margin-bottom:4px">IMMIGRANT HOUSING STRESS INDEX</div>
+          <div class="score-big" style="color:${scoreColor}">${nb.ihsi}</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:4px">out of 100</div>
+        </div>
+        <div style="flex:1">
+          <div class="score-bar-wrap" style="width:100%">
+            <div class="score-bar" style="width:${nb.ihsi}%;background:${scoreColor}"></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px">
+            <span>0 — Low stress</span>
+            <span>City avg: ${avgIhsi}</span>
+            <span>100 — High stress</span>
+          </div>
+          <div style="font-size:12px;color:var(--muted);margin-top:.75rem">
+            ${nb.ihsi > avgIhsi
+              ? `<span style="color:var(--red)">▲ ${nb.ihsi - avgIhsi} points above</span> ${nb.city} average`
+              : `<span style="color:var(--green)">▼ ${avgIhsi - nb.ihsi} points below</span> ${nb.city} average`}
+          </div>
+        </div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">Renter–owner gap</div>
+        <div class="metric-val" style="color:${nb.gap>5?'var(--red)':'var(--text)'}">${nb.gap > 0 ? '+' : ''}${nb.gap.toFixed(1)}pp</div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">vs 30% threshold</div>
+        <div class="metric-val" style="color:${nb.renter_stir>=30?'var(--red)':'var(--green)'}">
+          ${nb.renter_stir >= 30 ? '⚠ Above' : '✓ Below'}
+        </div>
+      </div>
+      <div class="metric">
+        <div class="metric-label">City penalty</div>
+        <div class="metric-val" style="color:${sig?'var(--red)':'var(--muted)'}">
+          +${penalty.toFixed(2)}pp${sig ? '***' : ''}
+        </div>
+      </div>
+    </div>
+
+    <div class="components">
+      <div class="comp-title">IHSI Components</div>
+      <div class="comp-row">
+        <div class="comp-name">Proximity to 30% threshold</div>
+        <div class="comp-track">
+          <div class="comp-fill" style="width:${nb.c1}%;background:#e05555">
+            <span class="comp-val">${nb.c1}/100</span>
+          </div>
+        </div>
+        <div class="comp-weight">wt: 40%</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-name">Income gap vs non-immigrants</div>
+        <div class="comp-track">
+          <div class="comp-fill" style="width:${nb.c2}%;background:#e8834a">
+            <span class="comp-val">${nb.c2}/100</span>
+          </div>
+        </div>
+        <div class="comp-weight">wt: 30%</div>
+      </div>
+      <div class="comp-row">
+        <div class="comp-name">Regression residual</div>
+        <div class="comp-track">
+          <div class="comp-fill" style="width:${nb.c3}%;background:#8e75c9">
+            <span class="comp-val">${nb.c3}/100</span>
+          </div>
+        </div>
+        <div class="comp-weight">wt: 30%</div>
+      </div>
+    </div>
+
+    <div class="cluster-card" style="border-color:${cluster.color}44">
+      <div style="font-size:11px;color:var(--muted);margin-bottom:4px">NEIGHBOURHOOD TYPE</div>
+      <div class="cluster-name" style="color:${cluster.color}">${cluster.name}</div>
+      <div class="cluster-desc">${cluster.desc}</div>
+      <div class="cluster-policy">${cluster.policy}</div>
+    </div>
+
+    <div class="finding">
+      <strong>${nb.city} city-level finding:</strong> After controlling for income, immigrants in ${nb.city} pay
+      <strong style="color:${sig?'var(--red)':'var(--text)'}">+${penalty.toFixed(2)} percentage points</strong> more than non-immigrants.
+      ${sig ? 'This result is <strong>statistically significant (p&lt;0.01)</strong>.' : 'This result is not statistically significant — the immigrant penalty in this city is largely explained by income differences.'}
+    </div>
+  `;
+}
+
+// Initialize
+renderList();
+renderDetail(NEIGHBOURHOODS[0]);
+</script>
+</body>
+</html>
