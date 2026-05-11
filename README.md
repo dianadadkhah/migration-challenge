@@ -4,9 +4,6 @@
 
 A data analysis project examining housing affordability disparities between immigrant and non-immigrant households across Montreal, Toronto, Edmonton, and Vancouver. Built for the Migration Data Challenge 2026 hosted by the Bridging Divides Research Program at Toronto Metropolitan University.
 
-## Preview
-
-<img src="assets/dashboard_preview.png" width="2000" alt="Dashboard Preview"/>
 
 ## Key Finding
 
@@ -78,6 +75,8 @@ West Vancouver scores 89. Edmonton city scores 25.
 ### Interactive Dashboard
 
 A self-contained HTML file. Open in any browser with no server or internet connection needed. Search any neighbourhood to see its IHSI score, component breakdown, cluster type, and tailored policy recommendation.
+
+<img src="assets/dashboard_preview.png" width="2000" alt="Dashboard Preview"/>
 
 ## Data
 
