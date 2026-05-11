@@ -6,7 +6,7 @@ A data analysis project examining housing affordability disparities between immi
 
 ## Preview
 
-![Dashboard Preview](assets/dashboard_preview.png)
+<img src="assets/dashboard_preview.png" width="2000" alt="Dashboard Preview"/>
 
 ## Key Finding
 
