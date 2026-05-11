@@ -87,10 +87,20 @@ Note: Raw CMHC data files are not included in this repository. Only the cleaned 
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/migration-challenge.git
+```
+```
 cd migration-challenge
+```
+```
 pip install pandas matplotlib seaborn scikit-learn statsmodels numpy
+```
+```
 python analysis.py
+```
+```
 python visuals/chart1_city_comparison.py
+```
+```
 open visuals/dashboard.html
 ```
 
