@@ -4,6 +4,10 @@
 
 A data analysis project examining housing affordability disparities between immigrant and non-immigrant households across Montreal, Toronto, Edmonton, and Vancouver. Built for the Migration Data Challenge 2026 hosted by the Bridging Divides Research Program at Toronto Metropolitan University.
 
+## Preview
+
+![Dashboard Preview](assets/dashboard_preview.png)
+
 ## Key Finding
 
 After controlling for income and city, immigrant households pay 2.92 percentage points more of their income on housing than non-immigrants. In Toronto that penalty reaches 5.37 percentage points — a statistically significant result that holds regardless of how much a household earns. We call this the Invisible Tax.
