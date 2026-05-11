@@ -10,6 +10,7 @@ After controlling for income and city, immigrant households pay 2.92 percentage 
 
 ## Project Structure
 
+```
 migration-challenge/
 ├── data/
 │   └── master_clean.csv
@@ -30,6 +31,9 @@ migration-challenge/
 ├── external_data/
 │   └── cmhc_rental_market_2025.txt
 └── analysis.py
+```
+
+
 ## What We Built
 
 ### Six Descriptive Charts
