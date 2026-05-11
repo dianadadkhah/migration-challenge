@@ -4,12 +4,17 @@
 
 A data analysis project examining housing affordability disparities between immigrant and non-immigrant households across Montreal, Toronto, Edmonton, and Vancouver. Built for the Migration Data Challenge 2026 hosted by the Bridging Divides Research Program at Toronto Metropolitan University.
 
+## Preview
+
+![Dashboard Preview](assets/dashboard_preview.png)
+
 ## Key Finding
 
 After controlling for income and city, immigrant households pay 2.92 percentage points more of their income on housing than non-immigrants. In Toronto that penalty reaches 5.37 percentage points — a statistically significant result that holds regardless of how much a household earns. We call this the Invisible Tax.
 
 ## Project Structure
 
+```
 migration-challenge/
 ├── data/
 │   └── master_clean.csv
@@ -30,6 +35,8 @@ migration-challenge/
 ├── external_data/
 │   └── cmhc_rental_market_2025.txt
 └── analysis.py
+```
+
 
 ## What We Built
 
@@ -84,10 +91,20 @@ Note: Raw CMHC data files are not included in this repository. Only the cleaned 
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/migration-challenge.git
+```
+```
 cd migration-challenge
+```
+```
 pip install pandas matplotlib seaborn scikit-learn statsmodels numpy
+```
+```
 python analysis.py
+```
+```
 python visuals/chart1_city_comparison.py
+```
+```
 open visuals/dashboard.html
 ```
 
