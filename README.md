@@ -30,7 +30,6 @@ migration-challenge/
 ├── external_data/
 │   └── cmhc_rental_market_2025.txt
 └── analysis.py
-
 ## What We Built
 
 ### Six Descriptive Charts
